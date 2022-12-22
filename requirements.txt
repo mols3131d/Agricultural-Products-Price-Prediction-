@@ -1,9 +1,9 @@
-pandas
 numpy
-streamlit
-finance-datareader
-plotly
-seaborn
+pandas
+
 matplotlib
 koreanize_matplotlib
+seaborn
+plotly
+
 

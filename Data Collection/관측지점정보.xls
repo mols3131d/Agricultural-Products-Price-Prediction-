@@ -1,0 +1,2375 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<head>
+<META HTTP-EQUIVE="CONTENT-TYPE" CONTENT="TEXT/HTML; CHARSET=UTF-8"> 
+<style>
+	table,th,td {border:1px solid #000000}
+	table thead th {background: #f6f6f6}
+	table tbody th {background: #f6f6f6}
+</style>
+<script type="text/javascript" nonce="ea4f0ef5f9b54ba4b1a04b5f49a" src="//local.adguard.org?ts=1671722558495&amp;type=content-script&amp;dmn=weather.rda.go.kr&amp;pth=%2Fw%2Fweather%2FobservationInfoExcel.do&amp;app=msedge.exe&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1"></script>
+<script type="text/javascript" nonce="ea4f0ef5f9b54ba4b1a04b5f49a" src="//local.adguard.org?ts=1671722558495&amp;name=AdGuard%20Extra&amp;name=AdGuard%20Popup%20Blocker&amp;type=user-script"></script></head>
+<body>
+<font size="3">관측지점정보</font>
+
+<div id="list_contents">
+	<table class="">
+	<caption>관측지점정보 테이블</caption>
+	<colgroup>
+	<col width="8%" />
+	<col width="12%" />
+	<col width="11%" />
+	<col width="10%" />
+	<col width="10%" />
+	<col width="7%" />
+	<col width="auto" />
+	<col width="11%" />
+	</colgroup>
+	<thead>
+	<tr>
+
+		<th scope="col">도명</th>
+		<th scope="col" >지점명</th>
+		<th scope="col" >지점코드</th>
+		<th scope="col" >위도</th>
+		<th scope="col" >경도</th>
+		<th scope="col" >고도</th>
+		<th scope="col" >설치주소</th>				
+		<th scope="col" class="">관측시작일</th>
+	</tr>
+	</thead>
+	<tbody>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">가평군 가평읍</td>
+			<td class="">477802A001</td>
+			<td class="">37.84621</td>
+			<td class="">127.50063</td>
+			<td class="">80</td>
+			<td class="">경기도 가평군 가평읍 아랫마장길 59</td>					
+			<td class="">2011-05-22</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">고양시 구산동</td>
+			<td class="">411801A001</td>
+			<td class="">37.67453</td>
+			<td class="">126.7007</td>
+			<td class="">24</td>
+			<td class="">경기도 고양시 일산서구 구산동 1942</td>					
+			<td class="">2010-12-06</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">고양시 덕양구</td>
+			<td class="">412040A002</td>
+			<td class="">37.64918</td>
+			<td class="">126.87036</td>
+			<td class="">39</td>
+			<td class="">경기도 고양시 덕양구 고양대로 1695  (원흥동)</td>					
+			<td class="">2013-08-24</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">광주시 목현동</td>
+			<td class="">464030A001</td>
+			<td class="">37.43231</td>
+			<td class="">127.23394</td>
+			<td class="">91</td>
+			<td class="">경기도 광주시 이배재로 209-5</td>					
+			<td class="">2010-11-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">김포시 월곶면</td>
+			<td class="">415743A001</td>
+			<td class="">37.69489</td>
+			<td class="">126.55614</td>
+			<td class="">43</td>
+			<td class="">경기도 김포시 월곶면 오리정로 13</td>					
+			<td class="">2010-12-14</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">남양주 진건읍</td>
+			<td class="">472830A001</td>
+			<td class="">37.64977</td>
+			<td class="">127.19327</td>
+			<td class="">88</td>
+			<td class="">경기도 남양주시 진건읍 사릉로 234-46 </td>					
+			<td class="">2012-06-05</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">시흥시 하중동</td>
+			<td class="">429843A001</td>
+			<td class="">37.40104</td>
+			<td class="">126.8079</td>
+			<td class="">12</td>
+			<td class="">경기도 시흥시 하중동 224-1</td>					
+			<td class="">2010-11-05</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">안산시 상록구</td>
+			<td class="">426170A001</td>
+			<td class="">37.30035</td>
+			<td class="">126.84454</td>
+			<td class="">23</td>
+			<td class="">경기도 안산시 상록구 항가울로 222 (사동)</td>					
+			<td class="">2012-12-17</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">안성시 보개면</td>
+			<td class="">456871A001</td>
+			<td class="">37.02392</td>
+			<td class="">127.28776</td>
+			<td class="">73</td>
+			<td class="">경기도 안성시 보개면 보개원삼로 219</td>					
+			<td class="">2010-12-13</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">양주시 광적면</td>
+			<td class="">482841A001</td>
+			<td class="">37.82046</td>
+			<td class="">126.97269</td>
+			<td class="">107</td>
+			<td class="">경기도 양주군 광적면 광석리 278</td>					
+			<td class="">2010-12-06</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">양평군 양평읍</td>
+			<td class="">476801A001</td>
+			<td class="">37.50897</td>
+			<td class="">127.51295</td>
+			<td class="">191</td>
+			<td class="">경기도 양평군 양평읍 농업기술센터길 37</td>					
+			<td class="">2010-09-28</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">여주시 상거동</td>
+			<td class="">469803A001</td>
+			<td class="">37.25226</td>
+			<td class="">127.63796</td>
+			<td class="">87</td>
+			<td class="">경기도 여주군 여주읍 상거리 5-6</td>					
+			<td class="">2010-11-10</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">연천군 연천읍</td>
+			<td class="">486803A001</td>
+			<td class="">38.08436</td>
+			<td class="">127.07843</td>
+			<td class="">49</td>
+			<td class="">경기도 연천군 연천읍 동막리 431-12(연천로 42번길)</td>					
+			<td class="">2010-11-12</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">용인시 처인구</td>
+			<td class="">449872A001</td>
+			<td class="">37.17386</td>
+			<td class="">127.2989</td>
+			<td class="">149</td>
+			<td class="">경기도 용인시 처인구 원삼면 농촌파크로 80</td>					
+			<td class="">2010-11-10</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">이천시 중리동</td>
+			<td class="">467800A001</td>
+			<td class="">37.27261</td>
+			<td class="">127.43305</td>
+			<td class="">90</td>
+			<td class="">경기도 이천시 부악로 38-52  (중리동) </td>					
+			<td class="">2010-11-08</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">파주시 아동동</td>
+			<td class="">413813A001</td>
+			<td class="">37.76469</td>
+			<td class="">126.79618</td>
+			<td class="">23</td>
+			<td class="">경기도 파주시 아동동 91-6</td>					
+			<td class="">2010-11-11</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">평택시 오성면</td>
+			<td class="">451873A001</td>
+			<td class="">37.01257</td>
+			<td class="">126.98065</td>
+			<td class="">31</td>
+			<td class=""> 경기도 평택시 오성면 청오로 33-58 </td>					
+			<td class="">2010-11-15</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">포천시 신북면</td>
+			<td class="">487915A001</td>
+			<td class="">37.92364</td>
+			<td class="">127.22573</td>
+			<td class="">128</td>
+			<td class="">경기도 포천시 신북면 틀못이길 11-88</td>					
+			<td class="">2010-11-26</td>
+		</tr>
+		
+		<tr>
+			<td class="">경기도</td>
+			<td class="">화성시 장안면</td>
+			<td class="">445891A001</td>
+			<td class="">37.0773</td>
+			<td class="">126.8738</td>
+			<td class="">42</td>
+			<td class="">경기도 화성시 장안면 풍무길80번길 53-20</td>					
+			<td class="">2011-04-16</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">동해시 북평동</td>
+			<td class="">240813A001</td>
+			<td class="">37.4852</td>
+			<td class="">129.11882</td>
+			<td class="">55</td>
+			<td class="">강원도 동해시 북평동 274-18</td>					
+			<td class="">2012-05-10</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">삼척시 근덕면</td>
+			<td class="">245832A001</td>
+			<td class="">37.38416</td>
+			<td class="">129.23112</td>
+			<td class="">19</td>
+			<td class="">강원도 삼척시 근덕면 맹방해변로 49</td>					
+			<td class="">2011-01-28</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">삼척시 미로면</td>
+			<td class="">245825A002</td>
+			<td class="">37.41026</td>
+			<td class="">129.10624</td>
+			<td class="">26</td>
+			<td class="">강원도 삼척시 미로면 하거노리 435</td>					
+			<td class="">2015-01-27</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">속초시 대포동</td>
+			<td class="">217060A001</td>
+			<td class="">38.16919</td>
+			<td class="">128.5997</td>
+			<td class="">68</td>
+			<td class="">강원도 속초시 대포동 159-13</td>					
+			<td class="">2010-09-15</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">양구군 만대리</td>
+			<td class="">255840A001</td>
+			<td class="">38.15287</td>
+			<td class="">128.08108</td>
+			<td class="">501</td>
+			<td class="">강원도 양구군 해안면 만대리 2524</td>					
+			<td class="">2012-06-18</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">양구군 후리</td>
+			<td class="">255840A002</td>
+			<td class="">38.17512</td>
+			<td class="">128.08334</td>
+			<td class="">457</td>
+			<td class="">강원도 양구군 해안면 후리 519</td>					
+			<td class="">2013-05-22</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">양양군 양양읍</td>
+			<td class="">215821A001</td>
+			<td class="">38.09199</td>
+			<td class="">128.63243</td>
+			<td class="">23</td>
+			<td class="">강원도 양양군 양양읍 송암리 683-9</td>					
+			<td class="">2013-11-29</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">영월군 영월읍</td>
+			<td class="">230802A001</td>
+			<td class="">37.16763</td>
+			<td class="">128.47716</td>
+			<td class="">220</td>
+			<td class="">강원도 영월군 영월읍 덕포리 95-1</td>					
+			<td class="">2011-11-09</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">원주시 흥업면</td>
+			<td class="">220844A001</td>
+			<td class="">37.29576</td>
+			<td class="">127.91503</td>
+			<td class="">154</td>
+			<td class="">강원도 원주시 흥업면 흥대길 7</td>					
+			<td class="">2010-12-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">인제군 인제읍</td>
+			<td class="">252805A001</td>
+			<td class="">38.05974</td>
+			<td class="">128.16701</td>
+			<td class="">192</td>
+			<td class="">강원도 인제군 인제읍 남북리 2리 7반</td>					
+			<td class="">2010-10-13</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">정선군 신동읍</td>
+			<td class="">026136A003</td>
+			<td class="">37.25987</td>
+			<td class="">128.58477</td>
+			<td class="">261</td>
+			<td class="">강원도 정선군 신동읍 덕천리 산137</td>					
+			<td class="">2015-10-19</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">정선군 임계면</td>
+			<td class="">233852A002</td>
+			<td class="">37.50471</td>
+			<td class="">128.87632</td>
+			<td class="">550</td>
+			<td class="">강원도 정선군 임계면 임계리 658-6</td>					
+			<td class="">2014-10-07</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">정선군 정선읍</td>
+			<td class="">233852A001</td>
+			<td class="">37.42332</td>
+			<td class="">128.65395</td>
+			<td class="">374</td>
+			<td class="">강원도 정선군 북평면 남평1리 1270-6</td>					
+			<td class="">2012-04-24</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">철원군 동송읍</td>
+			<td class="">269811A001</td>
+			<td class="">38.20324</td>
+			<td class="">127.25026</td>
+			<td class="">205</td>
+			<td class="">강원도 철원군 동송읍 장흥3리</td>					
+			<td class="">2010-12-16</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">춘천시 신북읍</td>
+			<td class="">200821A001</td>
+			<td class="">37.934</td>
+			<td class="">127.75377</td>
+			<td class="">98</td>
+			<td class="">강원도 춘천시 신북읍 신북로 102 </td>					
+			<td class="">2010-09-28</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">태백시 황지동</td>
+			<td class="">235802A001</td>
+			<td class="">37.20634</td>
+			<td class="">128.9857</td>
+			<td class="">733</td>
+			<td class="">강원도 태백시 황지동 288-5</td>					
+			<td class="">2010-12-04</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">평창군 여만리</td>
+			<td class="">232803A001</td>
+			<td class="">37.37715</td>
+			<td class="">128.39402</td>
+			<td class="">293</td>
+			<td class="">강원도 평창군 평창읍 여만길 46</td>					
+			<td class="">2010-12-07</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">홍천군 화동리</td>
+			<td class="">250802A001</td>
+			<td class="">37.70566</td>
+			<td class="">127.85943</td>
+			<td class="">139</td>
+			<td class="">강원도 홍천군 북방면 화동리 481</td>					
+			<td class="">2011-01-28</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">화천군 화천읍</td>
+			<td class="">209802A001</td>
+			<td class="">38.11013</td>
+			<td class="">127.69448</td>
+			<td class="">139</td>
+			<td class="">강원도 화천군 화천읍 상리 531 화천군농업기술센터 실습</td>					
+			<td class="">2011-02-22</td>
+		</tr>
+		
+		<tr>
+			<td class="">강원도</td>
+			<td class="">횡성군 공근면</td>
+			<td class="">225874A001</td>
+			<td class="">37.5275</td>
+			<td class="">127.96066</td>
+			<td class="">146</td>
+			<td class="">강원도 횡성군 공근면 학담2리 784-3</td>					
+			<td class="">2011-05-25</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청북도</td>
+			<td class="">영동군 심천면</td>
+			<td class="">370853A001</td>
+			<td class="">36.20687</td>
+			<td class="">127.71638</td>
+			<td class="">100</td>
+			<td class="">충북 영동군 심천면 약목리 282번지 실증시험포</td>					
+			<td class="">2010-09-28</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청북도</td>
+			<td class="">옥천군 옥천읍</td>
+			<td class="">373805A001</td>
+			<td class="">36.29997</td>
+			<td class="">127.59653</td>
+			<td class="">117</td>
+			<td class="">충청북도 옥천군 옥천읍 옥천동이로 234</td>					
+			<td class="">2002-01-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청북도</td>
+			<td class="">음성군 소이면</td>
+			<td class="">269804A001</td>
+			<td class="">36.91366</td>
+			<td class="">127.76175</td>
+			<td class="">100</td>
+			<td class="">충북 음성군 소이면 봉전리 777</td>					
+			<td class="">2011-04-15</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청북도</td>
+			<td class="">제천시 봉양읍</td>
+			<td class="">390874A001</td>
+			<td class="">37.16156</td>
+			<td class="">128.17668</td>
+			<td class="">320</td>
+			<td class="">충청북도 제천시 봉양읍 제천북로3길 20</td>					
+			<td class="">2010-12-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청북도</td>
+			<td class="">진천군 진천읍</td>
+			<td class="">365803A001</td>
+			<td class="">36.85385</td>
+			<td class="">127.42977</td>
+			<td class="">101</td>
+			<td class="">충북 진천군 진천읍 성석리 903</td>					
+			<td class="">2010-11-18</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청북도</td>
+			<td class="">청원군 오창읍</td>
+			<td class="">363883B001</td>
+			<td class="">36.72304</td>
+			<td class="">127.46507</td>
+			<td class="">40</td>
+			<td class="">충청북도 청원군 오창읍 가곡길 46</td>					
+			<td class="">2011-01-26</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청북도</td>
+			<td class="">청주시 남일면</td>
+			<td class="">363844A001</td>
+			<td class="">36.58794</td>
+			<td class="">127.50645</td>
+			<td class="">58</td>
+			<td class=""> 충청북도 청원군 남일면 단재로 480  </td>					
+			<td class="">2011-01-07</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청북도</td>
+			<td class="">충주시 달천동</td>
+			<td class="">380959A001</td>
+			<td class="">36.95015</td>
+			<td class="">127.89728</td>
+			<td class="">76</td>
+			<td class="">충북 충주시 달천동 672-2</td>					
+			<td class="">2010-08-19</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">계룡시 두마면</td>
+			<td class="">321916A001</td>
+			<td class="">36.26169</td>
+			<td class="">127.27726</td>
+			<td class="">148</td>
+			<td class="">충청남도 계룡시 두마면 사계로 177</td>					
+			<td class="">2011-06-30</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">공주시 우성면</td>
+			<td class="">032528A001</td>
+			<td class="">36.4934</td>
+			<td class="">127.09924</td>
+			<td class="">46</td>
+			<td class="">충청남도 공주시 우성면 내산목천길 52-15</td>					
+			<td class="">2015-12-13</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">금산군 금성면</td>
+			<td class="">312831A001</td>
+			<td class="">36.12584</td>
+			<td class="">127.49408</td>
+			<td class="">168</td>
+			<td class="">충남 금산군 금성면 의총길 90</td>					
+			<td class="">2010-09-08</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">논산시 광석면</td>
+			<td class="">320862A001</td>
+			<td class="">36.22795</td>
+			<td class="">127.0856</td>
+			<td class="">31</td>
+			<td class="">충남 논산시 광석면 이사리 389-1</td>					
+			<td class="">2012-08-14</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">당진시 당진읍</td>
+			<td class="">343808A001</td>
+			<td class="">36.91377</td>
+			<td class="">126.64968</td>
+			<td class="">11</td>
+			<td class="">충남 당진군 당진읍 구봉로 46</td>					
+			<td class="">2010-11-10</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">보령시 주교면</td>
+			<td class="">355831A001</td>
+			<td class="">36.39115</td>
+			<td class="">126.56601</td>
+			<td class="">49</td>
+			<td class="">충남 보령시 주포면 주교리 422-5</td>					
+			<td class="">2011-04-27</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">부여군 규암면</td>
+			<td class="">323814A001</td>
+			<td class="">36.25915</td>
+			<td class="">126.84262</td>
+			<td class="">24</td>
+			<td class="">충청남도 부여군 규암면 흥수로 488</td>					
+			<td class="">2010-09-06</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">아산시 염치읍</td>
+			<td class="">336812A001</td>
+			<td class="">36.82573</td>
+			<td class="">126.96796</td>
+			<td class="">10</td>
+			<td class="">충남 아산시 염치읍 염치1길 40</td>					
+			<td class="">2012-08-16</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">예산군 신암면</td>
+			<td class="">340861A001</td>
+			<td class="">36.74209</td>
+			<td class="">126.81445</td>
+			<td class="">29</td>
+			<td class="">충남 예산군 신암면 종경리 281-22</td>					
+			<td class="">2010-09-02</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">천안시 목천읍</td>
+			<td class="">330846A001</td>
+			<td class="">36.77527</td>
+			<td class="">127.20721</td>
+			<td class="">112</td>
+			<td class="">충청남도 천안시 동남구 목천읍 목천안터1길 15</td>					
+			<td class="">2013-11-19</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">천안시 성환읍</td>
+			<td class="">031004A002</td>
+			<td class="">36.95993</td>
+			<td class="">127.13006</td>
+			<td class="">9.9</td>
+			<td class="">충남 천안시 서북구 성환읍 안궁리 424</td>					
+			<td class="">2016-11-28</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">청양군 청양읍</td>
+			<td class="">345802A001</td>
+			<td class="">36.42545</td>
+			<td class="">126.7957</td>
+			<td class="">192</td>
+			<td class="">충청남도 청양군 청양읍 적누리 264번지</td>					
+			<td class="">2011-01-19</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">태안군 태안읍</td>
+			<td class="">357903A001</td>
+			<td class="">36.73285</td>
+			<td class="">126.30477</td>
+			<td class="">31</td>
+			<td class="">충청남도 태안군 태안읍 송암로 523</td>					
+			<td class="">2010-11-18</td>
+		</tr>
+		
+		<tr>
+			<td class="">충청남도</td>
+			<td class="">홍성군 홍성읍</td>
+			<td class="">350808A001</td>
+			<td class="">36.60263</td>
+			<td class="">126.57921</td>
+			<td class="">78</td>
+			<td class="">충청남도 홍성군 홍성읍 갈산면 동산리 843</td>					
+			<td class="">2011-01-11</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라북도</td>
+			<td class="">군산시 개정면</td>
+			<td class="">054065A001</td>
+			<td class="">35.57674</td>
+			<td class="">126.46785</td>
+			<td class="">47</td>
+			<td class="">전북 군산시 개정면 운회길 32</td>					
+			<td class="">2019-10-24</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라북도</td>
+			<td class="">김제시 부량면</td>
+			<td class="">576040A001</td>
+			<td class="">35.74644</td>
+			<td class="">126.85146</td>
+			<td class="">24</td>
+			<td class="">전북 김제시 부량면 신용리 301-2 김제시농업기술센터 예찰포</td>					
+			<td class="">2010-09-09</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라북도</td>
+			<td class="">남원시 이백면</td>
+			<td class="">590823A001</td>
+			<td class="">35.42608</td>
+			<td class="">127.43795</td>
+			<td class="">152</td>
+			<td class="">전라북도 남원시 이백면 이백로 309</td>					
+			<td class="">2011-01-06</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라북도</td>
+			<td class="">무주군 무주읍</td>
+			<td class="">588802A001</td>
+			<td class="">36.00476</td>
+			<td class="">127.67429</td>
+			<td class="">214</td>
+			<td class="">전북 무주군 한풍루로 416 무주군농업기술센터</td>					
+			<td class="">2010-10-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라북도</td>
+			<td class="">순창군 구림면</td>
+			<td class="">595870A001</td>
+			<td class="">35.43821</td>
+			<td class="">127.0412</td>
+			<td class="">269</td>
+			<td class="">전라북도 순창군 구림면 삭골길 56-1 </td>					
+			<td class="">2010-10-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라북도</td>
+			<td class="">완주군 고산면</td>
+			<td class="">565862A001</td>
+			<td class="">35.98494</td>
+			<td class="">127.22152</td>
+			<td class="">78</td>
+			<td class="">전라북도 완주군 고산면 고산천로 720-45</td>					
+			<td class="">2011-01-14</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라북도</td>
+			<td class="">익산시 함열읍</td>
+			<td class="">570802A001</td>
+			<td class="">36.04125</td>
+			<td class="">126.959</td>
+			<td class="">16</td>
+			<td class="">전북 익산시 익산대로 1366-20</td>					
+			<td class="">2014-12-16</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라북도</td>
+			<td class="">임실군 신평면</td>
+			<td class="">566822A001</td>
+			<td class="">35.65627</td>
+			<td class="">127.26588</td>
+			<td class="">225</td>
+			<td class="">전북 임실군 신평면 대리 1244-3</td>					
+			<td class="">2011-06-21</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라북도</td>
+			<td class="">장수군 장수읍</td>
+			<td class="">597803A001</td>
+			<td class="">35.61981</td>
+			<td class="">127.51154</td>
+			<td class="">478</td>
+			<td class="">전라북도 장수군 장수읍 와동길 55</td>					
+			<td class="">2011-01-14</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라북도</td>
+			<td class="">정읍시 정우면</td>
+			<td class="">580813A001</td>
+			<td class="">35.62084</td>
+			<td class="">126.89625</td>
+			<td class="">30</td>
+			<td class="">전라북도 정읍시 정우면 정우남로 282</td>					
+			<td class="">2010-09-16</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라북도</td>
+			<td class="">진안군 진안읍</td>
+			<td class="">567801A002</td>
+			<td class="">35.7603</td>
+			<td class="">127.43745</td>
+			<td class="">362</td>
+			<td class="">전라북도 진안군 진안읍 진무로 702-30   </td>					
+			<td class="">2012-04-27</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">강진군 군동면</td>
+			<td class="">059223A001</td>
+			<td class="">34.64381</td>
+			<td class="">126.79003</td>
+			<td class="">8.7</td>
+			<td class="">전라남도 강진군 군동면 진흥로 85</td>					
+			<td class="">2017-03-29</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">고흥군 풍양면</td>
+			<td class="">548912A001</td>
+			<td class="">34.56648</td>
+			<td class="">127.25811</td>
+			<td class="">52</td>
+			<td class="">전라남도 고흥군 풍양면 풍남로 143</td>					
+			<td class="">2011-05-16</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">곡성군 오곡면</td>
+			<td class="">516821A001</td>
+			<td class="">35.27364</td>
+			<td class="">127.30344</td>
+			<td class="">71</td>
+			<td class="">전남 곡성군 오곡면 승법리 180-7</td>					
+			<td class="">2011-05-16</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">구례군 구례읍</td>
+			<td class="">542805A001</td>
+			<td class="">35.1973</td>
+			<td class="">127.46092</td>
+			<td class="">38</td>
+			<td class="">전라남도 구례군 구례읍 동산1길 32</td>					
+			<td class="">2016-05-04</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">나주시 공산면</td>
+			<td class="">520892A001</td>
+			<td class="">34.94379</td>
+			<td class="">126.60644</td>
+			<td class="">4.4</td>
+			<td class="">전라남도 나주시 공산면 남창리 462-9</td>					
+			<td class="">2013-12-25</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">나주시 문평면</td>
+			<td class="">520943A002</td>
+			<td class="">35.04004</td>
+			<td class="">126.60136</td>
+			<td class="">7.5</td>
+			<td class="">전라남도 나주시 문평면 산호리 1407-1</td>					
+			<td class="">2013-12-25</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">나주시 봉황면</td>
+			<td class="">520853A003</td>
+			<td class="">34.95821</td>
+			<td class="">126.7484</td>
+			<td class="">29</td>
+			<td class="">나주시 봉황면 욱곡리 654-5</td>					
+			<td class="">2013-12-25</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">나주시 신포면</td>
+			<td class="">535873B003</td>
+			<td class="">35.02493</td>
+			<td class="">126.82454</td>
+			<td class="">26</td>
+			<td class="">전라남도 나주시 신포면 세남로 1508</td>					
+			<td class="">2013-06-18</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">무안군 현경면</td>
+			<td class="">534844A001</td>
+			<td class="">35.02855</td>
+			<td class="">126.44567</td>
+			<td class="">67</td>
+			<td class="">전라남도 무안군 현경면 현화리 96-21</td>					
+			<td class="">2013-01-25</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">보성군 보성읍</td>
+			<td class="">546804B001</td>
+			<td class="">34.78188</td>
+			<td class="">127.09562</td>
+			<td class="">145</td>
+			<td class="">전라남도 보성군 보성읍 송재로 354 (녹차연구소)</td>					
+			<td class="">2011-02-10</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">보성군 웅치면</td>
+			<td class="">546805A001</td>
+			<td class="">34.72791</td>
+			<td class="">127.02383</td>
+			<td class="">159</td>
+			<td class="">전라남도 보성군 웅치면 강산리 1592-29</td>					
+			<td class="">2010-09-27</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">순천시 주암면</td>
+			<td class="">540814A001</td>
+			<td class="">35.05758</td>
+			<td class="">127.2825</td>
+			<td class="">20</td>
+			<td class="">전라남도 순천시 주암면 창촌리 50-1 </td>					
+			<td class="">2014-06-13</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">신안군 압해읍</td>
+			<td class="">535812A001</td>
+			<td class="">34.85943</td>
+			<td class="">126.29898</td>
+			<td class="">23</td>
+			<td class="">전라남도 신안군 압해읍 동서리 520(압해로 1042)</td>					
+			<td class="">2011-09-30</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">여수시 주삼동</td>
+			<td class="">555130A001</td>
+			<td class="">34.78753</td>
+			<td class="">127.65434</td>
+			<td class="">26</td>
+			<td class="">전라남도 여수시 주동1길 32  (주삼동) </td>					
+			<td class="">2011-06-23</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">영광군 군서면</td>
+			<td class="">513842A001</td>
+			<td class="">35.28227</td>
+			<td class="">126.46796</td>
+			<td class="">20</td>
+			<td class="">전라남도 영광군 군서면 만곡리 184-1</td>					
+			<td class="">2010-10-06</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">영암군 덕진면</td>
+			<td class="">526821A001</td>
+			<td class="">34.82528</td>
+			<td class="">126.67311</td>
+			<td class="">28</td>
+			<td class="">전남 영암군 덕진면 장선리 676-1(금호길 11)</td>					
+			<td class="">2010-09-23</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">완도군 완도읍</td>
+			<td class="">537807B004</td>
+			<td class="">34.37194</td>
+			<td class="">126.72821</td>
+			<td class=""></td>
+			<td class="">전라남도 완도읍 청해진로 1251길 48-20</td>					
+			<td class="">2014-12-18</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">장성군 장성읍</td>
+			<td class="">515804A001</td>
+			<td class="">35.3185</td>
+			<td class="">126.79595</td>
+			<td class="">61</td>
+			<td class="">전라남도 장성군 장성읍 단풍로 220 </td>					
+			<td class="">2015-08-21</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">장흥군 장흥읍</td>
+			<td class="">529805A001</td>
+			<td class="">34.67061</td>
+			<td class="">126.91002</td>
+			<td class="">40</td>
+			<td class="">전남 장흥군 장흥읍 건산리 236-6</td>					
+			<td class="">2011-07-27</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">진도군 군내면</td>
+			<td class="">539823A001</td>
+			<td class="">34.51146</td>
+			<td class="">126.29772</td>
+			<td class="">41</td>
+			<td class="">전라남도 진도군 군내면 송산리 747-1 (가흥로 697)</td>					
+			<td class="">2010-09-23</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">함평군 학교면</td>
+			<td class="">525811A001</td>
+			<td class="">35.05217</td>
+			<td class="">126.54172</td>
+			<td class="">12</td>
+			<td class="">전라남도 함평군 학교면 학교화산길 90 </td>					
+			<td class="">2010-09-15</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">해남군 삼산면</td>
+			<td class="">536806A001</td>
+			<td class="">34.52835</td>
+			<td class="">126.55962</td>
+			<td class="">-1</td>
+			<td class="">전남 해남군 삼산면 봉학리 99-48 (해남읍 땅끝대로 106)</td>					
+			<td class="">2013-05-23</td>
+		</tr>
+		
+		<tr>
+			<td class="">전라남도</td>
+			<td class="">화순군 한천면</td>
+			<td class="">519822A001</td>
+			<td class="">34.9735</td>
+			<td class="">127.07065</td>
+			<td class="">139</td>
+			<td class="">전라남도 화순군 한천면 동가리 29-1</td>					
+			<td class="">2011-05-18</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">경산시 자인면</td>
+			<td class="">712851A001</td>
+			<td class="">35.81709</td>
+			<td class="">128.81137</td>
+			<td class="">62</td>
+			<td class="">경상북도 경산시 자인면 계정길 7</td>					
+			<td class="">2001-05-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">경주시 용강상리</td>
+			<td class="">780950A001</td>
+			<td class="">35.86717</td>
+			<td class="">129.22527</td>
+			<td class="">110</td>
+			<td class="">경상북도 경주시 용강상리길 70  (용강동)</td>					
+			<td class="">2004-11-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">구미시 선산읍</td>
+			<td class="">730802A001</td>
+			<td class="">36.23156</td>
+			<td class="">128.28812</td>
+			<td class="">32</td>
+			<td class="">경북 구미시 선산읍 이문리 862</td>					
+			<td class="">2010-09-13</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">구미시 옥성면</td>
+			<td class="">039102B003</td>
+			<td class="">36.32622</td>
+			<td class="">128.27677</td>
+			<td class="">40</td>
+			<td class="">구미시 옥성면 옥관리 59-4 </td>					
+			<td class="">2007-03-30</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">군위군 효령면</td>
+			<td class="">716823A001</td>
+			<td class="">36.18081</td>
+			<td class="">128.59212</td>
+			<td class="">115</td>
+			<td class="">경상북도 군위군 효령면 호우로 97(성리 111)</td>					
+			<td class="">2008-12-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">대구시 북구</td>
+			<td class="">041404B001</td>
+			<td class="">35.95484</td>
+			<td class="">128.56192</td>
+			<td class="">61</td>
+			<td class="">대구시 북구 동호동 189</td>					
+			<td class="">2007-03-30</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">문경시 흥덕동</td>
+			<td class="">745230A001</td>
+			<td class="">36.61436</td>
+			<td class="">128.20773</td>
+			<td class="">85</td>
+			<td class="">경상북도 문경시 중앙로 280  (흥덕동) </td>					
+			<td class="">2001-07-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">봉화군 봉성면</td>
+			<td class="">755851A002</td>
+			<td class="">36.90123</td>
+			<td class="">128.77321</td>
+			<td class="">266</td>
+			<td class="">경북 봉화군 봉성면 금봉리 779</td>					
+			<td class="">2006-06-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">봉화군 석포면</td>
+			<td class="">755851A001</td>
+			<td class="">37.0522</td>
+			<td class="">129.00311</td>
+			<td class="">586</td>
+			<td class="">경상북도 봉화군 석포면 대현리 149-25</td>					
+			<td class="">2010-10-05</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">봉화군 외삼리</td>
+			<td class="">036229B007</td>
+			<td class="">36.89858</td>
+			<td class="">128.80851</td>
+			<td class="">300</td>
+			<td class="">봉화군 봉성면 외삼리 92-1 </td>					
+			<td class="">2007-03-30</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">상주시 공성면</td>
+			<td class="">037268B004</td>
+			<td class="">36.28226</td>
+			<td class="">128.0739</td>
+			<td class="">100</td>
+			<td class="">상주시 공성면 장동리 69</td>					
+			<td class="">2007-03-20</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">상주시 초산동</td>
+			<td class="">742290A001</td>
+			<td class="">36.4537</td>
+			<td class="">128.16712</td>
+			<td class="">66</td>
+			<td class="">경상북도 상주시 발산로 71  (초산동)</td>					
+			<td class="">2010-09-13</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">성주군 대가면</td>
+			<td class="">719862A001</td>
+			<td class="">35.91477</td>
+			<td class="">128.25264</td>
+			<td class="">60</td>
+			<td class="">경상북도 성주군 대가면 참별로 2479 </td>					
+			<td class="">2011-04-21</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">성주군 대천리</td>
+			<td class="">040054B002</td>
+			<td class="">35.87969</td>
+			<td class="">128.17815</td>
+			<td class="">122</td>
+			<td class="">성주군 대가면 대천리 635</td>					
+			<td class="">2007-03-22</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">안동시 북후면</td>
+			<td class="">036614B005</td>
+			<td class="">36.66401</td>
+			<td class="">128.70103</td>
+			<td class="">134</td>
+			<td class="">안동시 북후면 도촌리 30-1</td>					
+			<td class="">2007-03-30</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">안동시 송천동</td>
+			<td class="">760380A001</td>
+			<td class="">36.53824</td>
+			<td class="">128.80505</td>
+			<td class="">78</td>
+			<td class="">경상북도 안동시 경동로 1484-10  (송천동)</td>					
+			<td class="">2011-01-20</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">영양군 대천리</td>
+			<td class="">036531B008</td>
+			<td class="">36.65442</td>
+			<td class="">129.14864</td>
+			<td class="">227</td>
+			<td class="">영양군 영양읍 대천리 579-3</td>					
+			<td class="">2007-03-30</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">영양군 영양읍</td>
+			<td class="">764803A001</td>
+			<td class="">36.65608</td>
+			<td class="">129.1464</td>
+			<td class="">248</td>
+			<td class="">경상북도 영양군 영양읍 영양창수로 323</td>					
+			<td class="">2011-08-10</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">영주시 부석면</td>
+			<td class="">750823A005</td>
+			<td class="">37.00268</td>
+			<td class="">128.65301</td>
+			<td class="">386</td>
+			<td class="">경상북도 영주시 부석면 임곡리 593</td>					
+			<td class="">2008-08-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">영주시 안정로</td>
+			<td class="">750873A001</td>
+			<td class="">36.84645</td>
+			<td class="">128.56092</td>
+			<td class="">173</td>
+			<td class="">경상북도 영주시 안정면 안정로 30</td>					
+			<td class="">2011-01-10</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">영주시 안풍리</td>
+			<td class="">750873A002</td>
+			<td class="">36.85962</td>
+			<td class="">128.55838</td>
+			<td class="">206</td>
+			<td class="">경상북도 영주시 안정면 안풍로 98</td>					
+			<td class="">2008-08-08</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">영주시 용산리</td>
+			<td class="">036052B006</td>
+			<td class="">36.80882</td>
+			<td class="">128.54033</td>
+			<td class="">189</td>
+			<td class="">영주시 안정면 용산리 657 </td>					
+			<td class="">2007-03-30</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">영주시 평은면</td>
+			<td class="">750852A006</td>
+			<td class="">36.76442</td>
+			<td class="">128.70167</td>
+			<td class="">220</td>
+			<td class="">경상북도 영주시 평은면 평은리 972-18</td>					
+			<td class="">2008-08-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">영주시 풍기읍</td>
+			<td class="">750804A003</td>
+			<td class="">36.8846</td>
+			<td class="">128.50629</td>
+			<td class="">273</td>
+			<td class="">경상북도 영주시 풍기읍 백리길151번길 21 </td>					
+			<td class="">2008-08-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">영천시 오미동</td>
+			<td class="">770270A001</td>
+			<td class="">35.99077</td>
+			<td class="">128.9253</td>
+			<td class="">110</td>
+			<td class="">경상북도 영천시 천문로 622-13  (오미동) </td>					
+			<td class="">2012-12-02</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">예천군 예천읍</td>
+			<td class="">757802A001</td>
+			<td class="">36.67708</td>
+			<td class="">128.46287</td>
+			<td class="">101</td>
+			<td class="">경상북도 예천군 예천읍 도효자로 87-56</td>					
+			<td class="">2010-09-10</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">울진군 매화면</td>
+			<td class="">767862A001</td>
+			<td class="">36.91721</td>
+			<td class="">129.37943</td>
+			<td class="">27</td>
+			<td class="">경북 울진군 매화면 매화매실길 76</td>					
+			<td class="">2012-04-26</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">의성군 봉양면</td>
+			<td class="">769912A001</td>
+			<td class="">36.32229</td>
+			<td class="">128.64646</td>
+			<td class="">90</td>
+			<td class="">경북 의성군 봉양면 경북대로 5225</td>					
+			<td class="">2014-09-02</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">의성군 의성읍</td>
+			<td class="">037339B009</td>
+			<td class="">36.34158</td>
+			<td class="">128.7428</td>
+			<td class="">142</td>
+			<td class="">의성군 의성읍 상리리 133-6 </td>					
+			<td class="">2007-03-20</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">청도군 각북면</td>
+			<td class="">038303A002</td>
+			<td class="">35.6693</td>
+			<td class="">128.59765</td>
+			<td class="">126</td>
+			<td class="">경북 청도군 각북면 삼평리 438</td>					
+			<td class="">2016-06-21</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">청도군 이서면</td>
+			<td class="">038315B010</td>
+			<td class="">35.64786</td>
+			<td class="">128.6485</td>
+			<td class="">93</td>
+			<td class="">청도군 이서면 구라리 787 </td>					
+			<td class="">2007-03-29</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">청도군 화양읍</td>
+			<td class="">714902A001</td>
+			<td class="">35.64969</td>
+			<td class="">128.73431</td>
+			<td class="">89</td>
+			<td class="">경상북도 청도군 청화3길 10</td>					
+			<td class="">2005-05-11</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">청송군 청송읍</td>
+			<td class="">763803A001</td>
+			<td class="">36.3906</td>
+			<td class="">129.07849</td>
+			<td class="">217</td>
+			<td class="">경상북도 청송군 청송읍 주왕산로 177</td>					
+			<td class="">2010-11-05</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">칠곡군 약목면</td>
+			<td class="">718814A001</td>
+			<td class="">36.03976</td>
+			<td class="">128.38128</td>
+			<td class="">47</td>
+			<td class="">경상북도 칠곡군 약목면 동덕로 146</td>					
+			<td class="">2011-01-05</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상북도</td>
+			<td class="">포항시 북구</td>
+			<td class="">791945A001</td>
+			<td class="">36.11306</td>
+			<td class="">129.30634</td>
+			<td class="">45</td>
+			<td class="">경상북도 포항시 북구 흥해읍 신흥로 572 </td>					
+			<td class="">2010-11-17</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상남도</td>
+			<td class="">거제시 거제면</td>
+			<td class="">656933A001</td>
+			<td class="">34.85653</td>
+			<td class="">128.58051</td>
+			<td class="">41</td>
+			<td class="">경남 거제시 거제면 거제남서로 3577(거제시농업개발원)</td>					
+			<td class="">2010-11-04</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상남도</td>
+			<td class="">거창군 거창읍</td>
+			<td class="">670807A001</td>
+			<td class="">35.67318</td>
+			<td class="">127.92131</td>
+			<td class="">194</td>
+			<td class="">경남 거창군 거창읍 거함대로 3372-60</td>					
+			<td class="">2012-12-02</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상남도</td>
+			<td class="">고성군 고성읍</td>
+			<td class="">638802A001</td>
+			<td class="">34.99053</td>
+			<td class="">128.3309</td>
+			<td class="">20</td>
+			<td class="">경상남도 고성군 고성읍 죽계리 435-230</td>					
+			<td class="">2011-01-19</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상남도</td>
+			<td class="">김해시 전하동</td>
+			<td class="">621100A001</td>
+			<td class="">35.21431</td>
+			<td class="">128.86962</td>
+			<td class="">5</td>
+			<td class="">경상남도 김해시 전하로198번길 102  (전하동)</td>					
+			<td class="">2010-12-21</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상남도</td>
+			<td class="">밀양시 상남면</td>
+			<td class="">627911A001</td>
+			<td class="">35.44802</td>
+			<td class="">128.75794</td>
+			<td class="">7</td>
+			<td class="">경상남도 밀양시 상남면 상남로 1008-19 </td>					
+			<td class="">2010-09-06</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상남도</td>
+			<td class="">사천시 용현면</td>
+			<td class="">664951A001</td>
+			<td class="">35.03698</td>
+			<td class="">128.06766</td>
+			<td class="">188</td>
+			<td class="">경남 사천시 용현면 신복리 500번지</td>					
+			<td class="">2012-07-04</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상남도</td>
+			<td class="">진주시 초전동</td>
+			<td class="">660985B001</td>
+			<td class="">35.20538</td>
+			<td class="">128.11697</td>
+			<td class="">23</td>
+			<td class="">경남 진주시 초전동 469</td>					
+			<td class="">2011-09-08</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상남도</td>
+			<td class="">창녕군 대지면</td>
+			<td class="">635821A001</td>
+			<td class="">35.55139</td>
+			<td class="">128.47668</td>
+			<td class="">36</td>
+			<td class="">경상남도 창녕군 대지면 우포2로 1085</td>					
+			<td class="">2014-06-10</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상남도</td>
+			<td class="">창원시 대산면</td>
+			<td class="">051394A001</td>
+			<td class="">35.34259</td>
+			<td class="">128.70779</td>
+			<td class="">5</td>
+			<td class="">경남 창원시 의창구 대산면 가술리 31-2</td>					
+			<td class="">2009-05-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상남도</td>
+			<td class="">통영시 광도면</td>
+			<td class="">650821A001</td>
+			<td class="">34.90357</td>
+			<td class="">128.40463</td>
+			<td class="">42</td>
+			<td class="">경상남도 통영시 광도면 노산리 251-40(농업개발시설내)</td>					
+			<td class="">2010-09-30</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상남도</td>
+			<td class="">하동군 적량면</td>
+			<td class="">667831A001</td>
+			<td class="">35.07943</td>
+			<td class="">127.76967</td>
+			<td class="">35</td>
+			<td class="">경남 하동군 적량면 동산리 1830-2</td>					
+			<td class="">2011-06-15</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상남도</td>
+			<td class="">하동군 화개면</td>
+			<td class="">052304A001</td>
+			<td class="">35.1625</td>
+			<td class="">127.6493</td>
+			<td class=""></td>
+			<td class="">경남 하동군 화개면 섬진강대로 3665 (하동녹차연구소)</td>					
+			<td class="">2021-12-21</td>
+		</tr>
+		
+		<tr>
+			<td class="">경상남도</td>
+			<td class="">합천군 용주면</td>
+			<td class="">678806A001</td>
+			<td class="">35.55128</td>
+			<td class="">128.11239</td>
+			<td class="">49</td>
+			<td class="">경남 합천군 용주면 고품리 910-292</td>					
+			<td class="">2011-10-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">제주도</td>
+			<td class="">서귀포 감산리</td>
+			<td class="">063531B010</td>
+			<td class="">33.26108</td>
+			<td class="">126.35497</td>
+			<td class="">125.4</td>
+			<td class="">서귀포시 안덕면 감산리 228-2</td>					
+			<td class="">2014-04-25</td>
+		</tr>
+		
+		<tr>
+			<td class="">제주도</td>
+			<td class="">서귀포 중문동</td>
+			<td class="">063550B007</td>
+			<td class="">33.35363</td>
+			<td class="">126.2484</td>
+			<td class="">163.8</td>
+			<td class="">제주특별자치도 서귀포시 중문동 912</td>					
+			<td class="">2014-04-25</td>
+		</tr>
+		
+		<tr>
+			<td class="">제주도</td>
+			<td class="">서귀포 하례리</td>
+			<td class="">699946A001</td>
+			<td class="">33.28899</td>
+			<td class="">126.61167</td>
+			<td class="">142</td>
+			<td class="">제주시 서귀포 남원읍 하례리 1591-14</td>					
+			<td class="">2007-01-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">제주도</td>
+			<td class="">제주시 김녕리</td>
+			<td class="">695971A001</td>
+			<td class="">33.5502</td>
+			<td class="">126.75055</td>
+			<td class="">36</td>
+			<td class="">제주특별자치도 제주시 구좌읍 김녕남6길 8 </td>					
+			<td class="">2007-01-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">제주도</td>
+			<td class="">제주시 덕천리</td>
+			<td class="">063531B006</td>
+			<td class="">33.5029</td>
+			<td class="">126.7798</td>
+			<td class="">130.2</td>
+			<td class="">제주특별자치도 제주시 구좌읍 덕천리 154</td>					
+			<td class="">2014-04-25</td>
+		</tr>
+		
+		<tr>
+			<td class="">제주도</td>
+			<td class="">제주시 상귀길</td>
+			<td class="">695909B001</td>
+			<td class="">33.45941</td>
+			<td class="">126.40391</td>
+			<td class="">102</td>
+			<td class="">제주특별자치도 제주시 애월읍 상귀길 173</td>					
+			<td class="">2007-01-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">제주도</td>
+			<td class="">제주시 세화리</td>
+			<td class="">063352B012</td>
+			<td class="">33.51083</td>
+			<td class="">126.84355</td>
+			<td class="">36</td>
+			<td class="">제주시 구좌읍 세화리 1703-29, 동부농업기술센터 실증포</td>					
+			<td class="">2017-06-30</td>
+		</tr>
+		
+		<tr>
+			<td class="">제주도</td>
+			<td class="">제주시 애월읍</td>
+			<td class="">063057B009</td>
+			<td class="">33.44772</td>
+			<td class="">126.4123</td>
+			<td class="">199.1</td>
+			<td class="">제주특별자치도 제주시 애월읍 상귀리 940</td>					
+			<td class="">2014-05-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">제주도</td>
+			<td class="">제주시 월각로</td>
+			<td class="">695907A001</td>
+			<td class="">33.37691</td>
+			<td class="">126.32979</td>
+			<td class="">308</td>
+			<td class="">제주특별자치도 제주시 애월읍 월각로 563-20</td>					
+			<td class="">2007-01-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">제주도</td>
+			<td class="">제주시 조천읍</td>
+			<td class="">063336B011</td>
+			<td class="">33.3171</td>
+			<td class="">126.3749</td>
+			<td class="">37.5</td>
+			<td class="">제주특별자치도 제주시 조천읍 신촌리 715</td>					
+			<td class="">2013-05-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">제주도</td>
+			<td class="">제주시 한동리</td>
+			<td class="">053359B008</td>
+			<td class="">33.53483</td>
+			<td class="">126.83234</td>
+			<td class="">9</td>
+			<td class="">제주특별자치도 제주시 구좌읍 한동리 55-1</td>					
+			<td class="">2007-01-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">제주도</td>
+			<td class="">제주시 한림읍</td>
+			<td class="">695923A001</td>
+			<td class="">33.35354</td>
+			<td class="">126.24793</td>
+			<td class="">19</td>
+			<td class="">제주특별자치도 제주시 월림7길 90</td>					
+			<td class="">2007-01-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">서울</td>
+			<td class="">서울시 서초구</td>
+			<td class="">137180A001</td>
+			<td class="">37.46541</td>
+			<td class="">127.08996</td>
+			<td class="">58</td>
+			<td class="">서울특별시 서초구 헌인릉1길 83-9  (내곡동)</td>					
+			<td class="">2012-05-26</td>
+		</tr>
+		
+		<tr>
+			<td class="">부산</td>
+			<td class="">부산시 강서구</td>
+			<td class="">618803A001</td>
+			<td class="">35.20937</td>
+			<td class="">128.96128</td>
+			<td class="">3</td>
+			<td class="">경남 부산시 강서구 대저1동 2038</td>					
+			<td class="">2010-12-20</td>
+		</tr>
+		
+		<tr>
+			<td class="">인천</td>
+			<td class="">옹진군 백령면</td>
+			<td class="">409911A001</td>
+			<td class="">37.95742</td>
+			<td class="">124.71063</td>
+			<td class="">11</td>
+			<td class="">인천광역시 옹진군 백령면 진촌리 2359-4 </td>					
+			<td class="">2014-12-18</td>
+		</tr>
+		
+		<tr>
+			<td class="">인천</td>
+			<td class="">옹진군 영흥면</td>
+			<td class="">409871A001</td>
+			<td class="">37.25288</td>
+			<td class="">126.46034</td>
+			<td class="">11</td>
+			<td class="">인천광역시 옹진군 영흥면 영흥남로435번길 29</td>					
+			<td class="">2012-05-26</td>
+		</tr>
+		
+		<tr>
+			<td class="">울산</td>
+			<td class="">울산시 청량면</td>
+			<td class="">689861A001</td>
+			<td class="">35.52411</td>
+			<td class="">129.26704</td>
+			<td class="">51</td>
+			<td class="">울산광역시 울주군 청량면 청량천변로 211</td>					
+			<td class="">2009-03-02</td>
+		</tr>
+		
+		<tr>
+			<td class="">세종시</td>
+			<td class="">세종시 연서면</td>
+			<td class="">339814A001</td>
+			<td class="">36.57488</td>
+			<td class="">127.28141</td>
+			<td class="">55</td>
+			<td class="">세종특별자치시 연서면 월하천로 289</td>					
+			<td class="">2010-09-13</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립농업과학원</td>
+			<td class="">거창군 동변리</td>
+			<td class="">050124D004</td>
+			<td class="">35.72051</td>
+			<td class="">127.90142</td>
+			<td class="">288.4</td>
+			<td class="">경상남도 거창군 거창읍 죽동길 138 경상남도농업기술원 사과이용연구소 내</td>					
+			<td class="">2016-06-03</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립농업과학원</td>
+			<td class="">남원시 운봉읍</td>
+			<td class="">590834E001</td>
+			<td class="">35.43851</td>
+			<td class="">127.52843</td>
+			<td class="">471</td>
+			<td class="">전라북도 남원시 운봉읍 황산로 1067</td>					
+			<td class="">2005-11-14</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립농업과학원</td>
+			<td class="">밀양시 산내면</td>
+			<td class="">050415C005</td>
+			<td class="">35.3541</td>
+			<td class="">128.57174</td>
+			<td class="">258</td>
+			<td class="">경상남도 밀양시 산내면 삼양리 1931</td>					
+			<td class="">2017-04-19</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립농업과학원</td>
+			<td class="">부안군 계화면</td>
+			<td class="">579824E001</td>
+			<td class="">35.77281</td>
+			<td class="">126.66958</td>
+			<td class="">7</td>
+			<td class="">전라북도 부안군 계화면 간재로 692</td>					
+			<td class="">2000-07-31</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립농업과학원</td>
+			<td class="">수원시 서둔동</td>
+			<td class="">441707D001</td>
+			<td class="">37.2736</td>
+			<td class="">126.99299</td>
+			<td class="">46</td>
+			<td class="">경기도 수원시 권선구 수인로 84  (서둔동)</td>					
+			<td class="">2013-03-21</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립농업과학원</td>
+			<td class="">연천군 신서면</td>
+			<td class="">486831E011</td>
+			<td class="">38.17157</td>
+			<td class="">127.10334</td>
+			<td class="">126</td>
+			<td class="">경기도 연천군 신서면 도신리 146-8</td>					
+			<td class="">2014-12-15</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립농업과학원</td>
+			<td class="">완주군 이서면</td>
+			<td class="">323891D002</td>
+			<td class="">35.82881</td>
+			<td class="">127.04559</td>
+			<td class="">32</td>
+			<td class="">전라북도 전주시 완주군 이서면 국립농업과학원</td>					
+			<td class="">2013-11-21</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립농업과학원</td>
+			<td class="">의성군 옥산면</td>
+			<td class="">037322D007</td>
+			<td class="">36.41577</td>
+			<td class="">128.79888</td>
+			<td class="">182.7</td>
+			<td class="">경북 의성군 옥산면 의성길안로 1445-29</td>					
+			<td class="">2017-11-09</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립농업과학원</td>
+			<td class="">태백시 매봉산</td>
+			<td class="">026002D003</td>
+			<td class="">37.22308</td>
+			<td class="">128.96514</td>
+			<td class="">1153</td>
+			<td class="">강원도 태백시 매봉산길304</td>					
+			<td class="">2015-12-16</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립농업과학원</td>
+			<td class="">해남군 옥천면</td>
+			<td class="">536824B002</td>
+			<td class="">34.58164</td>
+			<td class="">126.65029</td>
+			<td class="">28</td>
+			<td class="">전라남도 해남군 옥천면 용정리길 20 </td>					
+			<td class="">2013-05-23</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립식량과학원</td>
+			<td class="">강릉 안반덕이</td>
+			<td class="">210913E001</td>
+			<td class="">37.61906</td>
+			<td class="">128.73748</td>
+			<td class="">1099</td>
+			<td class="">강원도 강릉시 왕산면 대기4리 안반덕이</td>					
+			<td class="">2012-07-12</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립식량과학원</td>
+			<td class="">무안군 청계면</td>
+			<td class="">534833E001</td>
+			<td class="">34.96849</td>
+			<td class="">126.45608</td>
+			<td class="">30</td>
+			<td class="">전라남도 무안군 청계면 청천리 293-2(무안로 199)</td>					
+			<td class="">2010-12-17</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립식량과학원</td>
+			<td class="">상주시 화서면</td>
+			<td class="">741862E001</td>
+			<td class="">36.43992</td>
+			<td class="">127.94446</td>
+			<td class="">294</td>
+			<td class="">경상북도 상주시 화서면 중화로 2161</td>					
+			<td class="">2010-12-17</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립식량과학원</td>
+			<td class="">영덕군 병곡면</td>
+			<td class="">766851E001</td>
+			<td class="">36.56831</td>
+			<td class="">129.39595</td>
+			<td class="">17</td>
+			<td class="">경북 영덕군 병곡면 원황1리 767 영덕출장소</td>					
+			<td class="">2007-04-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립식량과학원</td>
+			<td class="">태백 귀네미골</td>
+			<td class="">235270E001</td>
+			<td class="">37.33551</td>
+			<td class="">129.00528</td>
+			<td class="">728</td>
+			<td class="">강원도 태백시 하사미동 524-87  귀네미골마을회관 앞</td>					
+			<td class="">2011-03-10</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립식량과학원</td>
+			<td class="">평창군 운교리</td>
+			<td class="">232815E001</td>
+			<td class="">37.53749</td>
+			<td class="">128.44067</td>
+			<td class="">622.5</td>
+			<td class="">강원도 평창군 대화면 신리 1995-12 서울대학교 평창캠퍼스 내</td>					
+			<td class="">2011-03-11</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립식량과학원</td>
+			<td class="">평창군 진부면</td>
+			<td class="">232941E001</td>
+			<td class="">37.67005</td>
+			<td class="">128.5943</td>
+			<td class="">584</td>
+			<td class="">강원도 평창군 진부면 간평1리 774번지</td>					
+			<td class="">2012-06-09</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립식량과학원</td>
+			<td class="">홍천군 자운리</td>
+			<td class="">250845E001</td>
+			<td class="">37.71752</td>
+			<td class="">128.38023</td>
+			<td class="">720</td>
+			<td class="">강원도 홍천군 내면 자운리 813-0</td>					
+			<td class="">2011-03-28</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">거창군 주상면</td>
+			<td class="">050115F027</td>
+			<td class="">35.75929</td>
+			<td class="">127.94553</td>
+			<td class="">320.2</td>
+			<td class="">경남 거창군 주상면 남산리 210-1</td>					
+			<td class="">2018-11-28</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">군위군 소보면</td>
+			<td class="">039000F026</td>
+			<td class="">36.27872</td>
+			<td class="">128.46624</td>
+			<td class="">85</td>
+			<td class="">경북 군위군 소보면 위성리 251-4</td>					
+			<td class="">2018-11-22</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">나주시 금천면</td>
+			<td class="">520821F001</td>
+			<td class="">35.02371</td>
+			<td class="">126.74747</td>
+			<td class="">13</td>
+			<td class="">전남 나주시 금천면 벽류길 121 나주배연구소</td>					
+			<td class="">2014-12-23</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">남해군 이동면</td>
+			<td class="">668812F002</td>
+			<td class="">34.81611</td>
+			<td class="">127.92559</td>
+			<td class="">46</td>
+			<td class="">경남 남해군 이동면 남해대로 2421</td>					
+			<td class="">2013-08-20</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">사천시 송포동</td>
+			<td class="">052546F018</td>
+			<td class="">34.9652</td>
+			<td class="">128.05101</td>
+			<td class="">76</td>
+			<td class="">경남 사천시 해안관광로 458-19</td>					
+			<td class="">2017-11-24</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">상주시 외서면</td>
+			<td class="">037136F022</td>
+			<td class="">36.49427</td>
+			<td class="">128.17598</td>
+			<td class="">81</td>
+			<td class="">경북 상주시 외서면 북상주로 773</td>					
+			<td class="">2017-11-24</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">서귀포 남원읍</td>
+			<td class="">063607F015</td>
+			<td class="">33.30227</td>
+			<td class="">126.61213</td>
+			<td class="">193</td>
+			<td class="">제주특별자치도 서귀포시 남원읍 하례리 1318</td>					
+			<td class=""></td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">서귀포 대정읍</td>
+			<td class="">063501F011</td>
+			<td class="">33.27401</td>
+			<td class="">126.22765</td>
+			<td class="">49</td>
+			<td class="">제주특별자치도 서귀포시 대정읍 무릉리 1485</td>					
+			<td class="">2016-09-29</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">서귀포 덕수리</td>
+			<td class="">063527F012</td>
+			<td class="">33.25468</td>
+			<td class="">126.30059</td>
+			<td class="">67</td>
+			<td class="">제주특별자치도 서귀포시 안덕면 덕수리 2579-1</td>					
+			<td class="">2016-09-28</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">서귀포 성산읍</td>
+			<td class="">063641F007</td>
+			<td class="">33.43472</td>
+			<td class="">126.89741</td>
+			<td class="">50</td>
+			<td class="">제주특별자치도 서귀포시 성산읍 고성리 2559-1</td>					
+			<td class=""></td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">서귀포 신효동</td>
+			<td class="">063605F004</td>
+			<td class="">33.26984</td>
+			<td class="">126.61333</td>
+			<td class="">75</td>
+			<td class="">제주특별자치도 서귀포시 신효동 548-11</td>					
+			<td class="">2016-09-30</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">서귀포 신흥리</td>
+			<td class="">063616F005</td>
+			<td class="">33.3057</td>
+			<td class="">126.74618</td>
+			<td class="">45</td>
+			<td class="">제주특별자치도 서귀포시 남원읍 신흥리 1437-12</td>					
+			<td class="">2016-03-02</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">서귀포 창천리</td>
+			<td class="">063532F013</td>
+			<td class="">33.26528</td>
+			<td class="">126.36734</td>
+			<td class="">162</td>
+			<td class="">제주특별자치도 서귀포시 안덕면 창천리 183</td>					
+			<td class="">2016-09-27</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">서귀포 표선면</td>
+			<td class="">063626F006</td>
+			<td class="">33.33378</td>
+			<td class="">126.77825</td>
+			<td class="">102</td>
+			<td class="">제주특별자치도 서귀포시 표선면 토산리 723-1</td>					
+			<td class=""></td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">서귀포 하원동</td>
+			<td class="">063541F014</td>
+			<td class="">33.25598</td>
+			<td class="">126.45764</td>
+			<td class="">112</td>
+			<td class="">제주특별자치도 서귀포시 하원동 1315</td>					
+			<td class="">2016-09-27</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">영주시 봉현면</td>
+			<td class="">036043F024</td>
+			<td class="">36.86547</td>
+			<td class="">128.49416</td>
+			<td class="">283.4</td>
+			<td class="">경북 영주시 봉현면 두산리 534-2</td>					
+			<td class="">2018-11-20</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">영천시 금호읍</td>
+			<td class="">038882F017</td>
+			<td class="">35.92065</td>
+			<td class="">128.86366</td>
+			<td class="">77</td>
+			<td class="">경북 영천시 금호읍 가라골1길 77-11</td>					
+			<td class="">2017-11-24</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">완주군 반교리</td>
+			<td class="">055365F016</td>
+			<td class="">35.83029</td>
+			<td class="">127.03227</td>
+			<td class="">67</td>
+			<td class="">전북 완주군 이서면 반교리 산 126</td>					
+			<td class="">2017-11-24</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">울주군 서생면</td>
+			<td class="">045012F021</td>
+			<td class="">35.36393</td>
+			<td class="">129.30257</td>
+			<td class="">65</td>
+			<td class="">울산광역시 울주군 서생면 위양리 725-1</td>					
+			<td class="">2017-11-24</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">이천시 장호원</td>
+			<td class="">017414F020</td>
+			<td class="">37.14918</td>
+			<td class="">127.61381</td>
+			<td class="">72</td>
+			<td class="">경기 이천시 장호원읍 풍계리 458</td>					
+			<td class="">2017-11-24</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">이천시 진암리</td>
+			<td class="">017421F029</td>
+			<td class="">37.12112</td>
+			<td class="">127.60956</td>
+			<td class="">129.4</td>
+			<td class="">경기 이천시 장호원읍 진암리 328-1(서동대로8759번길 97-103)</td>					
+			<td class="">2018-11-14</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">장수군 개정리</td>
+			<td class="">055640F028</td>
+			<td class="">35.62221</td>
+			<td class="">127.51908</td>
+			<td class="">535.5</td>
+			<td class="">전북 장수군 장수읍 개정리 238-66</td>					
+			<td class="">2018-11-29</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">제주시 구좌읍</td>
+			<td class="">063356F008</td>
+			<td class="">33.50321</td>
+			<td class="">126.7711</td>
+			<td class="">126</td>
+			<td class="">제주특별자치도 제주시 구좌읍 덕천리 278-6</td>					
+			<td class="">2016-10-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">제주시 금악리</td>
+			<td class="">063190F010</td>
+			<td class="">33.35947</td>
+			<td class="">126.29261</td>
+			<td class="">18</td>
+			<td class="">제주특별자치도 제주시 한림읍 금악리 2159-2</td>					
+			<td class="">2016-09-30</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">제주시 신엄리</td>
+			<td class="">063048F003</td>
+			<td class="">33.45888</td>
+			<td class="">126.36908</td>
+			<td class="">105</td>
+			<td class="">제주특별자치도 제주시 애월읍 신엄리 1818-1</td>					
+			<td class="">2016-09-30</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">제주시 오등동</td>
+			<td class="">063240F009</td>
+			<td class="">33.46588</td>
+			<td class="">126.53912</td>
+			<td class="">208</td>
+			<td class="">제주특별자치도 제주시 오등동 125</td>					
+			<td class="">2016-10-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">천안시 직산읍</td>
+			<td class="">031028F034</td>
+			<td class="">36.88945</td>
+			<td class="">127.09615</td>
+			<td class="">18.8</td>
+			<td class="">충청남도 천안시 서북구 직산읍 돌실길 73 ,  이팜스</td>					
+			<td class="">2021-06-25</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">청도군 구라리</td>
+			<td class="">038316F030</td>
+			<td class="">35.64738</td>
+			<td class="">128.65092</td>
+			<td class="">100.3</td>
+			<td class="">경북 청도군 이서면 구라리 553</td>					
+			<td class="">2018-11-27</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">청송군 부남면</td>
+			<td class="">037448F025</td>
+			<td class="">36.3017</td>
+			<td class="">129.11851</td>
+			<td class="">314.9</td>
+			<td class="">경북 청송군 부남면 양숙리 609(부남로 798-99)</td>					
+			<td class="">2018-11-21</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">충주시 안림동</td>
+			<td class="">027486F033</td>
+			<td class="">36.96866</td>
+			<td class="">127.97225</td>
+			<td class=""></td>
+			<td class="">충북 충주시 안림동 37</td>					
+			<td class="">2020-06-15</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">포천시 영북면</td>
+			<td class="">011104F031</td>
+			<td class="">37.12035</td>
+			<td class="">127.60867</td>
+			<td class="">129.4</td>
+			<td class=""> 경기도 포천시 영북면 운천리 산1번지</td>					
+			<td class="">2019-10-01</td>
+		</tr>
+		
+		<tr>
+			<td class="">국립원예특작과학원</td>
+			<td class="">화성시 마도면</td>
+			<td class="">018544F032</td>
+			<td class="">36.86547</td>
+			<td class="">128.49416</td>
+			<td class="">283.4</td>
+			<td class="">경기도 화성시 마도면 해운로 630번길 13</td>					
+			<td class="">2019-10-16</td>
+		</tr>
+		
+	</tbody>
+	</table>		
+</div>
+
+</body>
+</html>
