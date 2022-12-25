@@ -9,3 +9,5 @@ plotly
 requests
 BeautifulSoup
 xmltodict
+openpyxl
+lxml
