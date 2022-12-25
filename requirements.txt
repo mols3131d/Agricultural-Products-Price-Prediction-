@@ -6,4 +6,6 @@ koreanize_matplotlib
 seaborn
 plotly
 
-
+requests
+BeautifulSoup
+xmltodict
