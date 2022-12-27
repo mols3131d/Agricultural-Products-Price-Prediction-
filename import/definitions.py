@@ -47,9 +47,3 @@ crop_list = [
     "바나나",
     "키위",
 ]
-
-
-def test():
-    import os
-
-    print(os.getcwd())
