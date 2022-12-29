@@ -1,4 +1,7 @@
 def reduce_mem_usage(df, verbose=True):
+    import numpy as np
+    import pandas as pd
+
     numerics = ["int16", "int32", "int64", "float16", "float32", "float64"]
     start_mem = df.memory_usage().sum() / 1024**2
     for col in df.columns:
@@ -47,7 +50,10 @@ def envPath(dict_path=None):
 
     dict_path_default = {
         "Windows": {"root_path": "../", "data_path": "data"},
-        "Google_Colab": {"root_path": "../gdrive/Shareddrives/Agricultural Products Price Prediction/", "data_path": "data"},
+        "Google_Colab": {
+            "root_path": "../gdrive/Shareddrives/Agricultural Products Price Prediction/",
+            "data_path": "data",
+        },
         "Kaggle_notebook": {"root_path": "..", "data_path": "input"},
     }
     # 추후에 dict_path에 Kaggle_notebook이 없으면 추가하는 코드 추가 요망
@@ -56,7 +62,6 @@ def envPath(dict_path=None):
             dict_path_default[k] = v
 
     dict_path = dict_path_default
-
 
     env = platform.uname().system
 
