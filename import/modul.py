@@ -92,3 +92,49 @@ def envPath(dict_path=None):
     print("▣ platform.uname()", "\n", platform.uname(), sep="")
     print()
     print("▣ data_path", "\n", data_path, sep="")
+
+
+class EDA:
+    def print_title(body, br=2, bp="┌▣ ", hr=" ---- ---- ---- ----"):
+
+        """
+        body : 내용
+        bp : bullet point, 글머리 기호
+        hr : Horizontal Rule, 수평선
+        """
+
+        class ff:
+            PURPLE = "\033[95m"
+            CYAN = "\033[96m"
+            DARKCYAN = "\033[36m"
+            BLUE = "\033[94m"
+            GREEN = "\033[92m"
+            YELLOW = "\033[93m"
+            RED = "\033[91m"
+            BOLD = "\033[1m"
+            UNDERLINE = "\033[4m"
+            END = "\033[0m"
+
+        print("\n" * br + ff.BOLD + bp + ff.UNDERLINE + body + ff.END + hr)
+
+    def Check(df) -> pd.DataFrame:
+
+        EDA.print_title("df.shape", br=0)
+        print(df.shape)
+
+        EDA.print_title("df.info()")
+        print(df.info())
+
+        EDA.print_title("df.head()")
+        display(df.head())
+
+    def uVnG(df) -> None:
+
+        EDA.print_title("df.describe().T", br=0)
+        display(df.describe().T)
+
+        EDA.print_title("df.isna().sum()")
+        display(df.isna().sum().to_frame())
+
+        EDA.print_title("df.isna().mean()")
+        display(df.isna().mean().to_frame())
