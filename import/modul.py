@@ -95,6 +95,9 @@ def envPath(dict_path=None):
 
 
 class EDA:
+    import numpy as np
+    import pandas as pd
+
     def print_title(body, br=2, bp="┌▣ ", hr=" ---- ---- ---- ----"):
 
         """
