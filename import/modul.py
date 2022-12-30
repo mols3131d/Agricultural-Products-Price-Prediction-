@@ -122,22 +122,37 @@ class EDA:
 
     def Check(df) -> pd.DataFrame:
 
-        EDA.print_title("df.shape", br=0)
+        EDA.print_title("""df.shape""")
         print(df.shape)
 
-        EDA.print_title("df.info()")
+        EDA.print_title("""df.info()""")
         print(df.info())
 
-        EDA.print_title("df.head()")
+        EDA.print_title("""df.head()""")
         display(df.head())
 
-    def uVnG(df) -> None:
+    def uv(df) -> None:
 
-        EDA.print_title("df.describe().T", br=0)
+        EDA.print_title("""df.describe().T""")
         display(df.describe().T)
 
-        EDA.print_title("df.isna().sum()")
-        display(df.isna().sum().to_frame())
+        EDA.print_title("""df.describe(include=['O'])""")
+        display(df.describe(include=["O"]))
+
+        df_temp = df.isna()
+        EDA.print_title("""df.isna().sum()""")
+        display(df_temp.to_frame())
+
+        EDA.print_title("""sns.heatmap(data=df.isna(), annot=True, fmt=".2f")""")
+        display(sns.heatmap(data=df_temp, annot=True, fmt=".2f"))
 
         EDA.print_title("df.isna().mean()")
-        display(df.isna().mean().to_frame())
+        display(df_temp.mean().to_frame())
+
+    def mv(df):
+
+        df_corr = df.corr()
+        EDA.print_title("""df.corr()""")
+        display(df_corr)
+        EDA.print_title("""sns.heatmap(data=df.corr(), annot=True, fmt=".2f")""")
+        display(sns.heatmap(data=df_corr, annot=True, fmt=".2f"))
