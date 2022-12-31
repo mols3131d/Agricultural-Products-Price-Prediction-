@@ -1,9 +1,13 @@
 gitig*
-data
 reference
 auth.py
 .DS_Store
 desktop.ini
+*.csv
+*.xlsx
+data/*
+!data/Agri_all.csv
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
