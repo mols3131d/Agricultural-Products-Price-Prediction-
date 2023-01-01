@@ -1,12 +1,9 @@
-import-ipynb
-
 numpy
 pandas
 
 matplotlib
 koreanize_matplotlib
 seaborn
-plotly
 
 requests
 BeautifulSoup
