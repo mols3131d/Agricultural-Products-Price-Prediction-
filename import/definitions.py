@@ -30,3 +30,10 @@ crop_list2 = [
     "감자",
     "고구마",
 ]
+
+crop_list3 = [
+    ("마늘", "garlic"),
+    ("깻잎", "sesameLeaf"),
+    ("감자", "potato"),
+    ("고구마", "sweetPotato"),
+]
