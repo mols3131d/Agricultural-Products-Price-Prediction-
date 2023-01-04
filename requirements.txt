@@ -10,3 +10,6 @@ BeautifulSoup
 xmltodict
 openpyxl
 lxml
+
+streamlit
+plotly
