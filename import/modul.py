@@ -352,7 +352,7 @@ class EDA:
         display(df_corr)
         EDA.print_title("""sns.heatmap(data=df.corr(), annot=True, fmt=".2f")""")
         plt.figure(figsize=(20,7))
-        sns.heatmap(data=df_corr, annot=True, fmt=".2f", annot_kws={"size": 14})
+        sns.heatmap(data=df_corr, annot=True, fmt=".2f", annot_kws={"size": 14}, cmap="Blues")
         plt.show()
         
         if self.y != None:
