@@ -81,63 +81,13 @@
 
 ## EDA
 
-- 도소매 가격
-    
-    ![마늘 가격 데이터](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e049dc3-afcb-454b-89c0-e92d36237849/Untitled.png)
-    
-    마늘 가격 데이터
-    
-- 주산지 기상 정보 시각화
-    
-    ![2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일평균 상대습도 데이터](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/edf1ade2-5b5b-4753-ae8c-67348901afef/Untitled.png)
-    
-    2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일평균 상대습도 데이터
-    
-
----
-
-- 주산지 기상 정보 시각화
-    
-    ![2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일평균 온도](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4636422d-bbe5-48b2-9b7d-257d4a62ef65/Untitled.png)
-    
-    2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일평균 온도
-    
-
-![2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일교차](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2701dc6c-988f-419d-ba53-fa6194e260d0/Untitled.png)
-
-2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일교차
-
----
-
-- 도소매 가격 & 주산지 기상 정보 시각화
-    
-    ![마늘 가격 데이터 & 마늘 주산지 기상 데이터](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bff53868-be1e-4a91-a68a-87e96fe5de0f/Untitled.png)
-    
-    마늘 가격 데이터 & 마늘 주산지 기상 데이터
-    
-
----
-
 - EDA 결과
     - 가격의 변화와 주산지의 기후데이터를 보았을 때, 2011년 전후로 큰 차이를 확인하였다.
     - 이를 바탕으로 추가적으로 조사한 결과, 이상기후에의한 생산량 감소로 인한 가격증가가 있었음을 알 수 있었다.
     - 프로젝트 배경에 소개한 내용 처럼 기후 변화가 가시적으로 나타난 것을 확인하였다.
 
 ## 상관분석
-
-- 상관계수 시각화
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/349a6b33-c5b1-49e4-ace7-0f2544f71a6a/Untitled.png)
-    
-
 ### 다중공선성 진단
-
-![마늘 가격 데이터의 VIF 표](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/83778dfc-95fc-414e-9c45-8840dec66524/Untitled.png)
-
-마늘 가격 데이터의 VIF 표
-
-![고구마 가격 데이터의 VIF 표](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb02efce-d1cb-45fc-9be4-d391e01df8e6/Untitled.png)
-
 고구마 가격 데이터의 VIF 표
 
 - 상관분석 결과
@@ -167,9 +117,8 @@
     'mpe': 0.06382408151758624,
     'rmse': 2247.737892861377
     ```
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/619f06af-0613-43bf-a495-b5c2aec51a26/Untitled.png)
-    
+
+
 - SARIMA
     
     ```json
@@ -187,8 +136,7 @@
     'mpe': 0.18026576016309903,
     'rmse': 2300.495257431632
     ```
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f953a624-1a79-4b9c-95ca-f1790872f3bb/Untitled.png)
+  
     
 - SARIMAX
     - 'feature' : ['item_CPI', 'item_PPI','Food_Price_Index','Cereals_Price_Index', KRW_USD_EXR','Annual_Call_Rate']
@@ -232,7 +180,6 @@
         'rmse': 1694.6071021018943
         ```
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aa290197-46bb-4ef4-81d8-e8425c36ab9b/Untitled.png)
         
     - 'feature' : ['Food_Price_Index', 'Cereals_Price_Index', 'KRW_USD_EXR', 'Annual_Call_Rate']
         
@@ -284,7 +231,6 @@
         'mae': 2111.783
         ```
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/41f648ab-8ebe-472b-833e-b590bbd33134/Untitled.png)
         
     - 'feature' : ['DayAvg_Temperature', 'DayDiff_Temperature', 'DayAvg_RelativeHumidity', 'DaySum_Rainfall', 'DayAvg_WindSpeed', 'DaySum_Sunshine', 'Warning_Count']
         
@@ -318,7 +264,6 @@
         'mae': 1932.375
         ```
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee38ef5a-6a48-490d-9111-72585ac06f05/Untitled.png)
         
 
 ### 가격 예측 결과 - 고구마
