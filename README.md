@@ -65,13 +65,11 @@
     - 기상청_작물별 농업주산지 상세날씨 조회서비스
 ## EDA
 - 도소매 가격
-    ![[Fig.1-1] 마늘 가격 데이터](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%201.png){: .align-center}
-    *image_caption*
+    ![[Fig.1-1] 마늘 가격 데이터](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%201.png)
 
 
 - 주산지 기상 정보 시각화
-    ![[Fig.1-2] 2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일평균 상대습도 데이터](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%202.png){: .align-center}
-    *image_caption*
+    ![[Fig.1-2] 2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일평균 상대습도 데이터](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%202.png)
 
 
 # 분석 결과
@@ -83,8 +81,8 @@
     - 주산지 기상데이터를 보면, 평균온도, 상대습도, 기상경보수를 제외한 피쳐들은 낮게 나타났다.
     - 상관계수가 매우 높게 나타난 몇개의 피쳐를 다중공선성 진단하였다.
         - VIF(분산팽창지수)가 10 이상이면 다중공선성이 나타났다고 할 수 있는데,
-        - VIF이 높게 나온 것을 확인하였다.
-        - 따라서, 가격 예측에서 이 점을 고려하여 피쳐를 다르게 하여서도 진행하였다.
+          VIF이 높게 나온 것을 확인하였다.
+          따라서, 가격 예측에서 이 점을 고려하여 피쳐를 다르게 하여서도 진행하였다.
 - 가격 예측
     - ARIMA, SARIMA, SARIMAX, Prophet의 모델로 가격예측을 진행하였을 때
     - SARIMAX 모델로 품목의 물가지수와 국제가격지수 그리고 환율와 콜금리를 변수로 설정하였을 때, 가장 높은 예측성능을 보였다.
