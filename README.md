@@ -75,6 +75,10 @@
 - 가격 데이터 조정
 
 # Appendix
+<details>
+<summary>Appendix</summary>
+<div markdown="1">
+    
 ## Source
 - [서울특별시 농수산식품공사](https://garak.co.kr/main/main.do)
 - [KAMIS 농산물 유통정보](https://www.kamis.or.kr/customer/reference/openapi_list.do)
@@ -110,11 +114,6 @@
     - Output
         - [Google Slides](https://www.google.com/slides/about/)
         - [Streamlit](https://streamlit.io/)
-
-<details>
-<summary># Appendix</summary>
-<div markdown="1">
-
 
 </div>
 </details>
