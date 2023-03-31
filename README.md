@@ -1,5 +1,5 @@
 # Agricultural-Products-Price-Prediction-
-![Thumbnail](Agricultural-Products-Price-Prediction-/README_src/Thumbnail.png)
+![Thumbnail](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/Thumbnail.png)
 
 # Summary
 농산품 시장은 전통적으로 변동성이 큰 시장으로 알려져 있었는데, 최근 여러 요인으로 인해 변동성이 더욱 커졌으며, 이에 따라 생산자와 소비자에게 부정적인 영향을 주고 있다.
