@@ -65,8 +65,9 @@
     - 기상청_작물별 농업주산지 상세날씨 조회서비스
 ## EDA
 - 도소매 가격
-    ![마늘 가격 데이터](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%201.png)
-    *image_caption*
+    |![마늘 가격 데이터](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%201.png)|
+    |:--:|
+    |마늘 가격 데이터|
 - 주산지 기상 정보 시각화
     ![2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일평균 상대습도 데이터](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/edf1ade2-5b5b-4753-ae8c-67348901afef/Untitled.png)
     
