@@ -112,13 +112,9 @@
         - [Streamlit](https://streamlit.io/)
 
 <details>
-<summary>접기/펼치기 버튼</summary>
+<summary># Appendix</summary>
 <div markdown="1">
 
-|제목|내용|
-|--|--|
-|1|1|
-|2|10|
 
 </div>
 </details>
