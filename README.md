@@ -66,14 +66,18 @@
 ## EDA
 - 도소매 가격
     <figure>
-        <img src="https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%201.png" alt="Trulli" style="width:100%">
+        <img src="https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%201.png" alt="[Fig.1] 마늘 가격 데이터" style="width:100%">
         <figcaption align = "right">
-            [Fig.1] 마늘 가격 데이터
+            *[Fig.1-1] 마늘 가격 데이터*
         </figcaption>
     </figure>
 
 - 주산지 기상 정보 시각화
-    ![2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일평균 상대습도 데이터](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/edf1ade2-5b5b-4753-ae8c-67348901afef/Untitled.png)
+        <img src="https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%202.png" alt="Trulli" style="width:100%">
+        <figcaption align = "right">
+            *[Fig.1-2] 주산지 기상 정보*
+        </figcaption>
+    </figure>
     
     2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일평균 상대습도 데이터
 
