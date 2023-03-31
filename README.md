@@ -195,7 +195,7 @@
 
     - 'feature' : ['item_CPI', 'item_PPI']
     
-        ```json
+        ```
         'Product' : 'sweetpotato'
         'model' : 'SARIMAX'
 
