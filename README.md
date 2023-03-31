@@ -60,9 +60,7 @@
     
 
 ## 기대효과
-
 - 불안정한 경기 속 농산품 가격 예측을 통한 대비 또는 대비 방안 마련
-
 
 # 분석 결과
 - EDA
@@ -80,35 +78,25 @@
     - SARIMAX 모델로 품목의 물가지수와 국제가격지수 그리고 환율와 콜금리를 변수로 설정하였을 때, 가장 높은 예측성능을 보였다.
 
 ## 한계점
-
 - 거래량 데이터의 부재
 - 도메인 지식
 - 가격 데이터 조정
 
-# **Appendix**
-
-## S**ource**
-
+# Appendix
+## Source
 - [서울특별시 농수산식품공사](https://garak.co.kr/main/main.do)
 - [KAMIS 농산물 유통정보](https://www.kamis.or.kr/customer/reference/openapi_list.do)
 - [기상자료개방포털](https://data.kma.go.kr/cmmn/main.do)
 
 ## Reference
-
-[국제곡물 가격 상승 원인과 2011년 국내물가 파급영향 | 국내연구자료 | KDI 경제정보센터](https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000104350)
-
-[[안내] 2022 농넷 농산물 가격 변동률 예측 AI 경진대회](https://aifactory.space/competition/data/2091)
-
-[[농정춘추] 식량안보와 식량주권](http://www.ikpnews.net/news/articleView.html?idxno=49373)
-
-[2021 농산물 가격예측 AI 경진대회](https://dacon.io/competitions/official/235801/data)
-
-[LSTM 네트워크를 활용한 농산물 가격 예측 모델](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002409099)
-
-[](https://library.krei.re.kr/pyxis-api/1/digital-files/7d2409e9-ff04-40dc-b0e2-ab646709c70a)
+- [국제곡물 가격 상승 원인과 2011년 국내물가 파급영향 | 국내연구자료 | KDI 경제정보센터](https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000104350)
+- [[안내] 2022 농넷 농산물 가격 변동률 예측 AI 경진대회](https://aifactory.space/competition/data/2091)
+- [[농정춘추] 식량안보와 식량주권](http://www.ikpnews.net/news/articleView.html?idxno=49373)
+- [2021 농산물 가격예측 AI 경진대회](https://dacon.io/competitions/official/235801/data)
+- [LSTM 네트워크를 활용한 농산물 가격 예측 모델](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002409099)
+- [원재료 수입가격 상승의 가공식품 물가 영향, 한국농촌경제연구원](https://library.krei.re.kr/pyxis-api/1/digital-files/7d2409e9-ff04-40dc-b0e2-ab646709c70a)
 
 ## Tools
-
 - Data Collecting
     - [Requests](https://requests.readthedocs.io/)
 - Data Analytics
@@ -123,14 +111,10 @@
     - [Prophet](https://facebook.github.io/prophet/)
 - ETC
     - Team Collaboration Tool
-        - Git
-        - Github
-        - Discord
-        - Notion
-    - Output Distribution
-        - Google Slides
-        - Streamlit
-        - 이러한 부분을 개선하기 위해 프로젝트 진행 초반에 관련 현황에 대한 보고자료 등을 조사하여 팀원들과 공유하는 것이 좋을 것 같음.
-    - 가격 데이터 조정
-        - 본 프로젝트에서는 명목 가격으로만 분석 및 예측을 진행하였음.
-        - 물가지수를 피쳐로 활용하기는 하였지만, 등락폭이나 실질 가격을 통하여 분석 및 예측을 해보았다면 더 좋은 프로젝트가 되었을 것임.
+        - [Git](https://git-scm.com/)
+        - [Github](https://github.com/)
+        - [Discord](https://discord.com/)
+        - [Notion](https://www.notion.so/)
+    - Output
+        - [Google Slides](https://www.google.com/slides/about/)
+        - [Streamlit](https://streamlit.io/)
