@@ -67,8 +67,8 @@
 - 도소매 가격
 
     **[Fig.2-1]**  
-    마늘 도소매 가격 데이터
-    ![[Fig.1-1] 마늘 가격 데이터](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%201.png)
+    도소매 가격 데이터 - [마늘]
+    ![[Fig.1-1] 가격 데이터 - [마늘]](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%201.png)
 
 
 - 주산지 기상 정보 시각화
@@ -78,18 +78,18 @@
     ![[Fig.1-2] 2005~2020 주산지 일평균 상대습도 데이터 - [마늘, 깻잎, 감자, 고구마]](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%202.png)
 
     **[Fig.2-3]**  
-    2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일평균 온도
+    2005~2020 주산지 일평균 온도 - [마늘, 깻잎, 감자, 고구마]
     ![[Fig.1-3] 2005~2020 주산지 일평균 온도 - [마늘, 깻잎, 감자, 고구마]](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%203.png)
     
     **[Fig.2-4]**  
-    2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일교차
+    2005~2020 주산지 일교차 - [마늘, 깻잎, 감자, 고구마]
     ![[Fig.1-4] 2005~2020 주산지 일교차 - [마늘, 깻잎, 감자, 고구마]](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%204.png)
 
 - 도소매 가격 & 주산지 기상 정보 시각화
 
     **[Fig.2-5]**  
-    2005~2020 마늘 가격 데이터 & 마늘 주산지 기상 데이터 - 마늘
-    ![[Fig.1-5] 2005~2020 가격 데이터 & 마늘 주산지 기상 데이터 - 마늘](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%205.png)
+    2005~2020 마늘 가격 데이터 & 마늘 주산지 기상 데이터 - [마늘]
+    ![[Fig.1-5] 2005~2020 가격 데이터 & 마늘 주산지 기상 데이터 - [마늘]](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%205.png)
 
 - EDA 결과
     - 가격의 변화와 주산지의 기후데이터를 보았을 때, 2011년 전후로 큰 차이를 확인하였다.
@@ -98,11 +98,214 @@
 
 ## 상관분석
 - 상관계수 시각화
+
     **[Fig.2-6]**  
     2005~2020 마늘 가격 데이터 & 마늘 주산지 기상 데이터 - 마늘
-    ![[Fig.1-5] 2005~2020 가격 데이터 & 마늘 주산지 기상 데이터 - 마늘](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%205.png)
+    ![[Fig.1-5] 2005~2020 가격 데이터 & 마늘 주산지 기상 데이터 - 마늘](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/corr.png)
 
+- 다중공선성 진단
 
+    **[Fig.2-7]**  
+    마늘 가격 데이터의 VIF 표  
+    ![[Fig.2-7] 마늘 가격 데이터의 VIF 표](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/VIF%201.png)
+    
+    **[Fig.2-8]**  
+    고구마 가격 데이터의 VIF 표  
+    ![[Fig.2-8] 고구마 가격 데이터의 VIF 표](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/VIF%202.png)
+
+- 상관분석 결과
+    - 경제지표와 시장지표에 대한 상관계수가 상대적으로 높게 나타났다.
+        - 상관계수가 매우 높게 나타난 몇개의 피쳐를 다중공선성 진단하였다.
+        
+          VIF(분산팽창지수)가 10 이상이면 다중공선성이 나타났다고 할 수 있는데,  
+          VIF이 높게 나온 것을 확인하였다.  
+          따라서, 가격 예측에서 이 점을 고려하여 피쳐를 다르게 하여서도 진행하였다.
+              
+    - 주산지 기상데이터를 보면, 평균온도, 상대습도, 기상경보수를 제외한 피쳐들은 낮게 나타났다.
+
+## 가격 예측
+- ARIMA
+    ```
+    'Product' : 'sweetpotato'
+    'model' : 'ARIMA'
+
+    'train_period' : (2005-03-01, 2018-12-31)
+    'test_period' : (2019-01-01, 2020-12-31)
+
+    'feature' : None 
+    'params' : {'order':(2,1,2)}
+
+    'mae': 1686.3337389771978,
+    'mape': 0.18161889697068034,
+    'mpe': 0.06382408151758624,
+    'rmse': 2247.737892861377
+    ```
+  
+    **[Fig.2-9]**  
+    ARIMA 예측 결과 시각화
+    ![[Fig.2-9] ARIMA 예측 결과 시각화](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/forecast%201.png)
+
+- SARIMA
+    
+    ```
+    'Product' : 'sweetpotato'
+    'model' : 'SARIMA'
+    
+    'train_period' : (2005-03-01, 2018-12-31)
+    'test_period' : (2019-01-01, 2020-12-31)
+    
+    'feature' : None
+    'params' : {'order' : (2,1,2), 'seasonal_order' : (2,1,2,12)}
+    
+    'mae': 1957.765975876936,
+    'mape': 0.23180347388336564,
+    'mpe': 0.18026576016309903,
+    'rmse': 2300.495257431632
+    ```
+    
+    **[Fig.2-10]**  
+    SARIMA 예측 결과 시각화
+    ![[Fig.2-10] SARIMA 예측 결과 시각화](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/forecast%202.png)
+
+- SARIMAX
+    - 'feature' : ['item_CPI', 'item_PPI','Food_Price_Index','Cereals_Price_Index', KRW_USD_EXR','Annual_Call_Rate']
+    
+        ```
+        'Product' : 'sweetpotato'
+        'model' : 'SARIMAX'
+
+        'train_period' : (2005-03-01, 2018-12-31)
+        'test_period' : (2019-01-01, 2020-12-31)
+
+        'feature' : [
+                'item_CPI', 'item_PPI','Food_Price_Index',
+                'Cereals_Price_Index', 'KRW_USD_EXR','Annual_Call_Rate'
+                ]
+        'params' : {'order' : (2,1,2), 'seasonal_order' : (2,1,2,12)}
+
+        'mae': 1269.5931572147645,
+        'mape': 0.14390671569052613,
+        'mpe': 0.09871556426875837,
+        'rmse': 1433.9650913579515
+        ```
+        
+        **[Fig.2-11]**  
+        SARIMAX 예측 결과 시각화 1
+        ![[Fig.2-11] SARIMAX 예측 결과 시각화 1](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/forecast%203.png)
+
+    - 'feature' : ['item_CPI', 'item_PPI']
+    
+        ```json
+        'Product' : 'sweetpotato'
+        'model' : 'SARIMAX'
+
+        'train_period' : (2005-03-01, 2018-12-31)
+        'test_period' : (2019-01-01, 2020-12-31)
+
+        'feature' : ['item_CPI', 'item_PPI']
+        'params' : {'order' : (2,1,2), 'seasonal_order' : (2,1,2,12)}
+
+        'mae': 1484.8134795760045,
+        'mape': 0.1637971067149467,
+        'mpe': 0.09627351306126664,
+        'rmse': 1694.6071021018943
+        ```
+        
+        **[Fig.2-12]**  
+        SARIMAX 예측 결과 시각화 2
+        ![[Fig.2-12] SARIMAX 예측 결과 시각화 2](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/forecast%204.png)
+ 
+    - 'feature' : ['Food_Price_Index', 'Cereals_Price_Index', 'KRW_USD_EXR', 'Annual_Call_Rate']
+    
+         ```
+        'Product' : 'sweetpotato'
+        'model' : 'SARIMAX'
+
+        'train_period' : (2005-03-01, 2018-12-31)
+        'test_period' : (2019-01-01, 2020-12-31)
+
+        'feature' : [
+                'Food_Price_Index',
+                'Cereals_Price_Index',
+                'KRW_USD_EXR',
+                'Annual_Call_Rate',
+                ]
+        'params' : {'order' : (2,1,2),'seasonal_order' : (2,1,2,12)}
+
+        'mae': 1693.74888916462,
+        'mape': 0.1952173917905018,
+        'mpe': 0.13255715546461877,
+        'rmse': 2007.3517069655722
+        ```
+        
+        **[Fig.2-13]**  
+        SARIMAX 예측 결과 시각화 3
+        ![[Fig.2-13] SARIMAX 예측 결과 시각화 3](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/forecast%205.png)
+
+- Prophet
+    - 'feature' : None
+
+        ```
+        'Product' : 'sweetpotato'
+        'model' : 'Prophet'
+
+        'train_period' : (2005-03-01, 2018-12-31)
+        'test_period' : (2019-01-01, 2020-12-31)
+
+        'feature' : None
+        'params' : {
+                changepoint_prior_scale = 0.5, 
+                holidays_prior_scale = 0.3,
+                n_changepoints = 100, 
+                seasonality_mode = 'multiplicative',
+                weekly_seasonality = True,
+                daily_seasonality = True,
+                yearly_seasonality = True,
+                interval_width=0.95
+                }
+
+        'mae': 2111.783
+        ```
+        **[Fig.2-14]**  
+        Prophet 예측 결과 시각화 1
+        ![[Fig.2-14] Prophet 예측 결과 시각화 1](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/forecast%206.png)
+    
+    - 'feature' : ['DayAvg_Temperature', 'DayDiff_Temperature', 'DayAvg_RelativeHumidity', 'DaySum_Rainfall', 'DayAvg_WindSpeed', 'DaySum_Sunshine', 'Warning_Count']
+    
+        ```
+        'Product' : 'sweetpotato'
+        'model' : 'Prophet'
+
+        'train_period' : (2005-03-01, 2018-12-31)
+        'test_period' : (2019-01-01, 2020-12-31)
+
+        'feature' : [	
+                'DayAvg_Temperature', 
+                'DayDiff_Temperature', 
+                'DayAvg_RelativeHumidity', 
+                'DaySum_Rainfall',
+                'DayAvg_WindSpeed',
+                'DaySum_Sunshine',
+                'Warning_Count'
+                ]
+        'params' : {
+                changepoint_prior_scale = 0.5, 
+                holidays_prior_scale = 0.3, 
+                n_changepoints = 100, 
+                seasonality_mode = 'multiplicative', 
+                weekly_seasonality = True, 
+                daily_seasonality = True, 
+                yearly_seasonality = True, 
+                interval_width=0.95
+                }
+
+        'mae': 1932.375
+        ```
+        
+        **[Fig.2-15]**  
+        Prophet 예측 결과 시각화 2
+        ![[Fig.2-15] Prophet 예측 결과 시각화 2](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/forecast%207.png)
+ 
 # 3. 분석 결과
 - EDA
     - 가격의 변화와 주산지의 기후데이터를 보았을 때, 2011년 전후로 큰 차이를 확인하였다.
@@ -111,8 +314,9 @@
     - 경제지표와 시장지표에 대한 상관계수가 상대적으로 높게 나타났다.
     - 주산지 기상데이터를 보면, 평균온도, 상대습도, 기상경보수를 제외한 피쳐들은 낮게 나타났다.
     - 상관계수가 매우 높게 나타난 몇개의 피쳐를 다중공선성 진단하였다.  
-        VIF(분산팽창지수)가 10 이상이면 다중공선성이 나타났다고 할 수 있는데, VIF이 높게 나온 것을 확인하였다.  
-        따라서, 가격 예측에서 이 점을 고려하여 피쳐를 다르게 하여서도 진행하였다.
+       VIF(분산팽창지수)가 10 이상이면 다중공선성이 나타났다고 할 수 있는데,  
+       VIF이 높게 나온 것을 확인하였다.  
+       따라서, 가격 예측에서 이 점을 고려하여 피쳐를 다르게 하여서도 진행하였다.
 - 가격 예측
     - ARIMA, SARIMA, SARIMAX, Prophet의 모델로 가격예측을 진행하였을 때
     - SARIMAX 모델로 품목의 물가지수와 국제가격지수 그리고 환율와 콜금리를 변수로 설정하였을 때, 가장 높은 예측성능을 보였다.
