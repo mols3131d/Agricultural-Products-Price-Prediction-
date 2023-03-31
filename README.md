@@ -305,7 +305,33 @@
         **[Fig.2-15]**  
         Prophet 예측 결과 시각화 2
         ![[Fig.2-15] Prophet 예측 결과 시각화 2](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/forecast%207.png)
- 
+
+- 가격 예측 결과 - 고구마
+    | Model | Feature | MAE | MAPE | MPE | RMSE |
+    | --- | --- | --- | --- | --- | --- |
+    | ARIMA | None | 1686.333 | 0.181 | 0.063 | 2247.737 |
+    | SARIMA | None | 1957.765 | 0.231 | 0.180 | 2300.495 |
+    | SARIMAX | item_CPI
+    item_PPI
+    Food_Price_Index
+    Cereals_Price_Index
+    KRW_USD_EXR
+    Annual_Call_Rate | 1269.593 | 0.143 | 0.098 | 1433.965 |
+    | SARIMAX | item_CPI
+    item_PPI | 1484.813 | 0.163 | 0.096 | 1694.607 |
+    | SARIMAX | Food_Price_Index
+    Cereals_Price_Index
+    KRW_USD_EXR
+    Annual_Call_Rate | 1693.748 | 0.195 | 0.132 | 2007.351 |
+    | Prophet | None | 2111.783 |  |  |  |
+    | Prophet | DayAvg_Temperature
+    DayDiff_Temperature
+    DayAvg_RelativeHumidity
+    DaySum_Rainfall
+    DayAvg_WindSpeed
+    DaySum_Sunshine
+    Warning_Count | 1932.375 |  |  |  |
+
 # 3. 분석 결과
 - EDA
     - 가격의 변화와 주산지의 기후데이터를 보았을 때, 2011년 전후로 큰 차이를 확인하였다.
