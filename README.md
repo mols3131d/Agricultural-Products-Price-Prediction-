@@ -19,15 +19,10 @@
 # Output
 
 - [Google Slide](https://docs.google.com/presentation/d/1MiEM-Mo72EeKbuoDuNkexDcOcm00g1u__conYAksmgw/present)
-    
-    [https://docs.google.com/presentation/d/1MiEM-Mo72EeKbuoDuNkexDcOcm00g1u__conYAksmgw/present](https://docs.google.com/presentation/d/1MiEM-Mo72EeKbuoDuNkexDcOcm00g1u__conYAksmgw/present)
-    
 - [Youtube](https://youtu.be/_8r2QF7Jzj8)
-    
-    [https://youtu.be/_8r2QF7Jzj8](https://youtu.be/_8r2QF7Jzj8)
-    
-- [GitHub](https://github.com/Sankamita3131/Agricultural-Products-Price-Prediction-)
 - [Streamlit](https://y0ungbinlee-test-1-main-gfhk1e.streamlit.app/)
+- [GitHub](https://github.com/Sankamita3131/Agricultural-Products-Price-Prediction-)
+
 
 # 개요
 
