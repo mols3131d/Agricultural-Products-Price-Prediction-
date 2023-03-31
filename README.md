@@ -311,26 +311,11 @@
     | --- | --- | --- | --- | --- | --- |
     | ARIMA | None | 1686.333 | 0.181 | 0.063 | 2247.737 |
     | SARIMA | None | 1957.765 | 0.231 | 0.180 | 2300.495 |
-    | SARIMAX | item_CPI
-    item_PPI
-    Food_Price_Index
-    Cereals_Price_Index
-    KRW_USD_EXR
-    Annual_Call_Rate | 1269.593 | 0.143 | 0.098 | 1433.965 |
-    | SARIMAX | item_CPI
-    item_PPI | 1484.813 | 0.163 | 0.096 | 1694.607 |
-    | SARIMAX | Food_Price_Index
-    Cereals_Price_Index
-    KRW_USD_EXR
-    Annual_Call_Rate | 1693.748 | 0.195 | 0.132 | 2007.351 |
+    | SARIMAX | item_CPI<br>item_PPI<br>Food_Price_Index<br>Cereals_Price_Index<br>KRW_USD_EXR<br>Annual_Call_Rate | 1269.593 | 0.143 | 0.098 | 1433.965 |
+    | SARIMAX | item_CPI<br>item_PPI | 1484.813 | 0.163 | 0.096 | 1694.607 |
+    | SARIMAX | Food_Price_Index<br>Cereals_Price_Index<br>KRW_USD_EXR<br>Annual_Call_Rate | 1693.748 | 0.195 | 0.132 | 2007.351 |
     | Prophet | None | 2111.783 |  |  |  |
-    | Prophet | DayAvg_Temperature
-    DayDiff_Temperature
-    DayAvg_RelativeHumidity
-    DaySum_Rainfall
-    DayAvg_WindSpeed
-    DaySum_Sunshine
-    Warning_Count | 1932.375 |  |  |  |
+    | Prophet | DayAvg_Temperature<br>DayDiff_Temperature<br>DayAvg_RelativeHumidity<br>DaySum_Rainfall<br>DayAvg_WindSpeed<br>DaySum_Sunshine<br>Warning_Count | 1932.375 |  |  |  |
 
 # 3. 분석 결과
 - EDA
