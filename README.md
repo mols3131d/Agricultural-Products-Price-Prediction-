@@ -1,7 +1,7 @@
 # Agricultural-Products-Price-Prediction-
 ![Thumbnail](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/Thumbnail.png)
 
-# Summary
+## Summary
 농산품 시장은 전통적으로 변동성이 큰 시장으로 알려져 있었는데, 최근 여러 요인으로 인해 변동성이 더욱 커졌으며, 이에 따라 생산자와 소비자에게 부정적인 영향을 주고 있다.
 본 프로젝트는 농산품 시장 관련 데이터를 탐색해보고, 가격 예측을 진행하여 농산물 시장의 불안정한 경제상황에 대비하고 대응하는 것에 기여하는 것을 기대하여 진행하였다.
     
@@ -14,14 +14,14 @@
     `SARIMAX` 모델로 품목의 물가지수와 국제가격지수 그리고 환율와 콜금리를 변수로 설정하였을 때,  `MAE`값이 `1269.593`로 가장 높은 예측성능을 보였다.
     
 
-# Output
+## Output
 - [Google Slide](https://docs.google.com/presentation/d/1MiEM-Mo72EeKbuoDuNkexDcOcm00g1u__conYAksmgw/present)
 - [Youtube](https://youtu.be/_8r2QF7Jzj8)
 - [Streamlit](https://y0ungbinlee-test-1-main-gfhk1e.streamlit.app/)
 - [GitHub](https://github.com/Sankamita3131/Agricultural-Products-Price-Prediction-)
 
 
-# 개요
+# 1. 개요
 
 ## 주제
 - 농산품 시장과 관련된 데이터를 수집, 분석하여 농산품 시장의 특징을 알아보고 경제 데이터와 기상정보를 활용하여 농산품 가격을 예측해보는 프로젝트
@@ -50,7 +50,7 @@
 ## 기대효과
 - 불안정한 경기 속 농산품 가격 예측을 통한 대비 또는 대비 방안 마련
 
-# 분석 내용
+# 2. 분석 내용
 ## 데이터 선정 및 수집
 - **농산품 시장 관련 데이터**
     - aT 농수축산물 일자별 도소매 가격
@@ -65,16 +65,45 @@
     - 기상청_작물별 농업주산지 상세날씨 조회서비스
 ## EDA
 - 도소매 가격
+
+    **[Fig.2-1]**  
+    마늘 도소매 가격 데이터
     ![[Fig.1-1] 마늘 가격 데이터](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%201.png)
 
 
 - 주산지 기상 정보 시각화
 
-    [Fig.1-2] 2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일평균 상대습도 데이터
-    ![[Fig.1-2] 2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일평균 상대습도 데이터](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%202.png)
+    **[Fig.2-2]**  
+    2005~2020 주산지 일평균 상대습도 데이터 - [마늘, 깻잎, 감자, 고구마]
+    ![[Fig.1-2] 2005~2020 주산지 일평균 상대습도 데이터 - [마늘, 깻잎, 감자, 고구마]](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%202.png)
+
+    **[Fig.2-3]**  
+    2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일평균 온도
+    ![[Fig.1-3] 2005~2020 주산지 일평균 온도 - [마늘, 깻잎, 감자, 고구마]](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%203.png)
+    
+    **[Fig.2-4]**  
+    2005~2020 [마늘, 깻잎, 감자, 고구마] 주산지 일교차
+    ![[Fig.1-4] 2005~2020 주산지 일교차 - [마늘, 깻잎, 감자, 고구마]](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%204.png)
+
+- 도소매 가격 & 주산지 기상 정보 시각화
+
+    **[Fig.2-5]**  
+    2005~2020 마늘 가격 데이터 & 마늘 주산지 기상 데이터 - 마늘
+    ![[Fig.1-5] 2005~2020 가격 데이터 & 마늘 주산지 기상 데이터 - 마늘](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%205.png)
+
+- EDA 결과
+    - 가격의 변화와 주산지의 기후데이터를 보았을 때, 2011년 전후로 큰 차이를 확인하였다.
+    - 이를 바탕으로 추가적으로 조사한 결과, 이상기후에의한 생산량 감소로 인한 가격증가가 있었음을 알 수 있었다.
+    - 프로젝트 배경에 소개한 내용 처럼 기후 변화가 가시적으로 나타난 것을 확인하였다.
+
+## 상관분석
+- 상관계수 시각화
+    **[Fig.2-6]**  
+    2005~2020 마늘 가격 데이터 & 마늘 주산지 기상 데이터 - 마늘
+    ![[Fig.1-5] 2005~2020 가격 데이터 & 마늘 주산지 기상 데이터 - 마늘](https://github.com/mols3131d/Agricultural-Products-Price-Prediction-/blob/main/README_src/EDA%205.png)
 
 
-# 분석 결과
+# 3. 분석 결과
 - EDA
     - 가격의 변화와 주산지의 기후데이터를 보았을 때, 2011년 전후로 큰 차이를 확인하였다.
     - 이를 바탕으로 추가적으로 조사한 결과, [한석호&승준호(2011)](https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000104350)에서 이상기후에의한 생산량 감소로 인한 가격증가가 있었음을 알 수 있었다.
